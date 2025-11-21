@@ -1,0 +1,51 @@
+{
+  "name": "Sinter",
+  "status": false,
+  "percent": 25,
+  "children": [
+    {
+      "name": "Gitlab",
+      "status": true,
+      "percent": 100,
+      "children": [],
+      "descricao": ""
+    },
+    {
+      "name": "Docker",
+      "status": false,
+      "percent": 0,
+      "children": [],
+      "descricao": ""
+    },
+    {
+      "name": "Keycloak",
+      "status": false,
+      "percent": 0,
+      "children": [],
+      "descricao": ""
+    },
+    {
+      "name": "Aplicacao",
+      "status": false,
+      "percent": 0,
+      "children": [
+        {
+          "name": "front",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": ""
+        },
+        {
+          "name": "back",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": ""
+        }
+      ],
+      "descricao": ""
+    }
+  ],
+  "descricao": "From production to dust"
+}

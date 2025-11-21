@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Tree</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    .node circle {
+      stroke: black;
+      stroke-width: 2px;
+    }
+
+    #controls {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      padding: 8px 12px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      font-family: Arial, sans-serif;
+      z-index: 10;
+      display: none;
+    }
+
+    #controls-row {
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: flex-start;
+    }
+
+    #controls-row input[type="text"],
+    #controls-row textarea {
+      width: 220px;
+    }
+
+    #buttons-row {
+      margin-top: 4px;
+      display: flex;
+      gap: 6px;
+    }
+
+    #buttons-row button {
+      border: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    #btn-create-child {
+      background-color: #c8f7c5;
+      /* verde pastel */
+      color: #145a32;
+    }
+
+    #btn-update {
+      background-color: #cfe9ff;
+      /* azul pastel */
+      color: #154360;
+    }
+
+    #btn-delete {
+      background-color: #ffd6d6;
+      /* vermelho pastel */
+      color: #7b241c;
+    }
+
+    #export-panel {
+      position: fixed;
+      bottom: 16px;
+      left: 16px;
+      padding: 8px 10px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 9;
+    }
+
+    #export-panel button {
+      border: none;
+      padding: 4px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      background-color: #f2f2f2;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 40px;
+      height: 20px;
+      margin-left: 4px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #ccc;
+      transition: .2s;
+      border-radius: 20px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 2px;
+      bottom: 2px;
+      background-color: white;
+      transition: .2s;
+      border-radius: 50%;
+    }
+
+    .switch input:checked+.slider {
+      background-color: #4caf50;
+    }
+
+    .switch input:checked+.slider:before {
+      transform: translateX(20px);
+    }
+
+    .edit-icon {
+      font-size: 18px;
+      fill: blue;
+      pointer-events: none;
+    }
+
+    .node.selected circle {
+      stroke: orange;
+      stroke-width: 3px;
+      fill: orange;
+    }
+
+    .link {
+      fill: none;
+      stroke: black;
+      stroke-width: 2px;
+    }
+
+    .arrow {
+      fill: black;
+    }
+
+    text {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      text-anchor: middle;
+      fill: #ffff00;
+      font-weight: 500;
+      paint-order: stroke;
+      stroke: #000000;
+      stroke-width: 3px;
+      dominant-baseline: middle;
+    }
+
+    #tooltip {
+      position: absolute;
+      padding: 6px 10px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 4px;
+      font-size: 12px;
+      pointer-events: none;
+      white-space: nowrap;
+      z-index: 20;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="controls">
+    <div>
+      Nó selecionado: <span id="selected-node-label">nenhum</span>
+    </div>
+    <div id="controls-row">
+      <label>Nome:<br><input id="task-name" type="text"></label>
+      <label>Concluída:
+        <label class="switch">
+          <input id="task-status" type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </label>
+      <label>Descrição:<br><textarea id="task-descricao" rows="3"></textarea></label>
+      <div id="buttons-row">
+        <button id="btn-create-child" type="button">Criar filho</button>
+        <button id="btn-update" type="button">Atualizar nó</button>
+        <button id="btn-delete" type="button">Excluir nó</button>
+        <button id="btn-move" type="button">Mover para...</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="export-panel">
+    <input id="input-import-json" type="file" accept="application/json" style="display: none;" />
+    <button id="btn-import-json" type="button">Importar JSON</button>
+    <button id="btn-export-json" type="button">Exportar JSON</button>
+    <button id="btn-export-png" type="button">Exportar PNG</button>
+    <button id="btn-export-jpeg" type="button">Exportar JPEG</button>
+    <button id="btn-export-svg" type="button">Exportar SVG</button>
+  </div>
+
+  <div id="tooltip"></div>
+
+  <script>
+    // script reservado (vazio) apenas se você quiser adicionar
+    // código inline específico da página no futuro
+  </script>
+  <script src="./task-model.js"></script>
+  <script src="./task-render.js"></script>
+  <script src="./task-data-load.js"></script>
+  <script src="./task-ui-controls.js"></script>
+  <script src="./export-diagram.js"></script>
+</body>
+
+</html>
