@@ -142,36 +142,30 @@ function render() {
       tooltip.style.display = "none";
     });
 
+  // base circle background
   node.append("circle")
     .attr("r", radius)
     .attr("data-status", d => d.data.status)
+    .attr("fill", "#ff0000ff");
+
+  // pie-like arc showing completion percentage
+  const arc = d3.arc()
+    .innerRadius(0)
+    .outerRadius(radius);
+
+  node.append("path")
+    .attr("d", d => {
+      const p = Math.max(0, Math.min(100, d.data.percent || 0));
+      const angle = (p / 100) * 2 * Math.PI;
+      if (p <= 0) {
+        // draw a very small slice so 0% is still visible as a red mark
+        //return arc({ startAngle: 0, endAngle: 0.01 });
+      }
+      return arc({ startAngle: 0, endAngle: angle });
+    })
     .attr("fill", d => {
       const p = Math.max(0, Math.min(100, d.data.percent || 0));
-      const t = p / 100;
-
-      let r, g, b;
-      if (t <= 0.5) {
-        const u = t / 0.5;
-        const r0 = 255, g0 = 0, b0 = 0;
-        const r1 = 60, g1 = 120, b1 = 255;
-        r = Math.round(r0 + (r1 - r0) * u);
-        g = Math.round(g0 + (g1 - g0) * u);
-        b = Math.round(b0 + (b1 - b0) * u);
-      } else {
-        const u = (t - 0.5) / 0.5;
-        if (u <= 0.5) {
-          const v = u / 0.5;
-          r = 0;
-          g = Math.round(255 * v);
-          b = 255;
-        } else {
-          const v = (u - 0.5) / 0.5;
-          r = 0;
-          g = 255;
-          b = Math.round(255 * (1 - v));
-        }
-      }
-      return `rgb(${r},${g},${b})`;
+      return `rgb(0, 255, 0)`;
     });
 
   const label = node.append("text");

@@ -18,34 +18,40 @@
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Static Analysis Linting SonarQube",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": "SonarQube, ESLint, Checkstyle"
+              "descricao": "SonarQube, ESLint, Checkstyle",
+              "collapsed": false
             }
           ],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": false
         },
         {
           "name": "Runner",
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": false
         },
         {
           "name": "Registry",
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": false
         }
       ],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Docker",
@@ -57,7 +63,8 @@
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": false
         },
         {
           "name": "Aplicacao",
@@ -69,42 +76,65 @@
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "failover scenarios",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ".net HealthCheck, kuma"
+              "descricao": ".net HealthCheck, kuma",
+              "collapsed": false
             },
             {
               "name": "Odata",
               "status": false,
               "percent": 0,
-              "children": [],
-              "descricao": ""
+              "children": [
+                {
+                  "name": "Prevent unauthorized access to entities properties",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "keycloak integration",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Multi Tenant",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Cache Redis",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Payment",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": "strype\nmercado livre"
+              "descricao": "strype\nmercado livre",
+              "collapsed": false
             },
             {
               "name": "Back-end",
@@ -121,62 +151,72 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "DDD",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "Testes XUnit",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "AutoMapper",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "Refit",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "EntityFramework",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "Fluent Validation",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "Retry-Pattern Circuit-Breaker Exponential-Backoff",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     }
                   ],
-                  "descricao": ""
+                  "descricao": "",
+                  "collapsed": false
                 }
               ],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Front-End",
@@ -193,37 +233,44 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "Task",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     },
                     {
                       "name": "Storybook",
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": ""
+                      "descricao": "",
+                      "collapsed": false
                     }
                   ],
-                  "descricao": ""
+                  "descricao": "",
+                  "collapsed": false
                 }
               ],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Features",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": "aplicacao-> relatorios, filtros, imagens, geo localização, upload e download de arquivos, is Required – Validation"
+              "descricao": "aplicacao-> relatorios, filtros, imagens, geo localização, upload e download de arquivos, is Required – Validation",
+              "collapsed": false
             }
           ],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": false
         },
         {
           "name": "DB Postgres",
@@ -235,133 +282,154 @@
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             },
             {
               "name": "Forbid DDL ",
               "status": false,
               "percent": 0,
               "children": [],
-              "descricao": ""
+              "descricao": "",
+              "collapsed": false
             }
           ],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": true
         },
         {
           "name": "Graceful Shutdown",
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": ""
+          "descricao": "",
+          "collapsed": false
         }
       ],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Monitoring Observability",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana."
+      "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.",
+      "collapsed": false
     },
     {
       "name": "KeyVault",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Kubernetes",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Firewall",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": "opnsense"
+      "descricao": "opnsense",
+      "collapsed": false
     },
     {
       "name": "Reverse Proxy load-balancing",
       "status": true,
       "percent": 100,
       "children": [],
-      "descricao": "Cloudflare\nnginx"
+      "descricao": "Cloudflare\nnginx",
+      "collapsed": false
     },
     {
       "name": "PM Management",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": "taiga.io, focalboard, redmine, planka.app"
+      "descricao": "taiga.io, focalboard, redmine, planka.app",
+      "collapsed": false
     },
     {
       "name": "Documentação",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": "docusaurus"
+      "descricao": "docusaurus",
+      "collapsed": false
     },
     {
       "name": "Team Colaboration Tool",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Project Planning System",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": "opf/openproject"
+      "descricao": "opf/openproject",
+      "collapsed": false
     },
     {
       "name": "Data Analisys",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": "metabase"
+      "descricao": "metabase",
+      "collapsed": false
     },
     {
       "name": "Portainer",
       "status": true,
       "percent": 100,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Task",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "HTTP3",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "AI",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     },
     {
       "name": "Storage",
       "status": false,
       "percent": 0,
       "children": [],
-      "descricao": ""
+      "descricao": "",
+      "collapsed": false
     }
   ],
-  "descricao": "From dust to production stack"
+  "descricao": "From dust to production stack",
+  "collapsed": false
 }
