@@ -9,7 +9,7 @@
 | Hierarchical task model | Tree structure using `Task` class with name, status, percent, description and children. |
 | Automatic progress calculation | Percent and status of each node computed dynamically from its children. |
 | D3.js visualization | Interactive SVG tree with nodes, links and arrow markers using D3 v7. |
-| Color gradient by progress | Node colors smoothly changing according to completion percentage. |
+| Pie-style progress indicator | Each node shows a red base circle with a green pie slice representing completion percentage. |
 | Node selection and highlight | Click a node to highlight it and load its data in the side panel. |
 | Tooltip with description | Shows task description when hovering the mouse over a node. |
 | Task editing panel | Side panel to change name, status (for leaf nodes) and description. |

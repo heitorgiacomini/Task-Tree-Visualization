@@ -56,7 +56,7 @@
     {
       "name": "Docker",
       "status": false,
-      "percent": 0,
+      "percent": 25,
       "children": [
         {
           "name": "Keycloak SSO",
@@ -144,36 +144,36 @@
                 {
                   "name": ".Net",
                   "status": false,
-                  "percent": 0,
+                  "percent": 87.5,
                   "children": [
                     {
                       "name": "Retry limit",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
                       "name": "DDD",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
                       "name": "Testes XUnit",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
                       "name": "AutoMapper",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -188,24 +188,24 @@
                     },
                     {
                       "name": "EntityFramework",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
                       "name": "Fluent Validation",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
                       "name": "Retry-Pattern Circuit-Breaker Exponential-Backoff",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -226,7 +226,7 @@
                 {
                   "name": "Angular",
                   "status": false,
-                  "percent": 0,
+                  "percent": 33.33333333333333,
                   "children": [
                     {
                       "name": "Datatable",
@@ -246,8 +246,8 @@
                     },
                     {
                       "name": "Storybook",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -275,12 +275,12 @@
         {
           "name": "DB Postgres",
           "status": false,
-          "percent": 0,
+          "percent": 50,
           "children": [
             {
               "name": "Criptografado",
-              "status": false,
-              "percent": 0,
+              "status": true,
+              "percent": 100,
               "children": [],
               "descricao": "",
               "collapsed": false
@@ -295,12 +295,12 @@
             }
           ],
           "descricao": "",
-          "collapsed": true
+          "collapsed": false
         },
         {
           "name": "Graceful Shutdown",
-          "status": false,
-          "percent": 0,
+          "status": true,
+          "percent": 100,
           "children": [],
           "descricao": "",
           "collapsed": false
