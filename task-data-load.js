@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(json => {
       data = plainObjectToTask(json);
       selectedNode = null;
-      document.getElementById("selected-node-label").textContent = "nenhum";
+      document.getElementById("selected-node-label").textContent = "none";
       render();
     })
     .catch(() => {
       data = new Task("Project", false, 0, [], "");
       selectedNode = null;
-      document.getElementById("selected-node-label").textContent = "nenhum";
+      document.getElementById("selected-node-label").textContent = "none";
       render();
     });
 });

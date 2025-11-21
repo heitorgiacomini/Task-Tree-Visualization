@@ -23,25 +23,25 @@ document.getElementById("btn-update").addEventListener("click", () => {
 document.getElementById("btn-delete").addEventListener("click", () => {
   if (!selectedNode) return;
   if (selectedNode.data === data) {
-    alert("Não é possível excluir o nó raiz.");
+    alert("It is not possible to delete the root node.");
     return;
   }
   const parent = findParent(data, selectedNode.data);
   if (parent && parent.children) {
     parent.children = parent.children.filter(c => c !== selectedNode.data);
     selectedNode = null;
-    document.getElementById("selected-node-label").textContent = "nenhum";
+    document.getElementById("selected-node-label").textContent = "none";
     render();
   }
 });
 
 document.getElementById("btn-move").addEventListener("click", () => {
   if (!selectedNode) {
-    alert("Selecione um nó primeiro.");
+    alert("Select a node first.");
     return;
   }
   if (selectedNode.data === data) {
-    alert("Não é possível mover o nó raiz.");
+    alert("It is not possible to move the root node.");
     return;
   }
   moveMode = true;

@@ -43,7 +43,7 @@ function render() {
       return a.parent === b.parent ? 2 : 3;
     });
 
-  const root = d3.hierarchy(data);
+  const root = d3.hierarchy(data, d => (d.collapsed ? null : d.children));
   tree(root);
 
   const link = g.selectAll(".link")
@@ -65,7 +65,7 @@ function render() {
     .on("click", (event, d) => {
       if (moveMode && selectedNode && d !== selectedNode) {
         if (selectedNode.data === data) {
-          alert("Não é possível mover o nó raiz.");
+          alert("It is not possible to move the root node.");
           moveMode = false;
           event.stopPropagation();
           return;
@@ -81,7 +81,7 @@ function render() {
           cursor = cursor.parent;
         }
         if (isDescendant) {
-          alert("Não é possível mover um nó para dentro de si mesmo ou de um descendente.");
+          alert("It is not possible to move a node into itself or one of its descendants.");
           moveMode = false;
           event.stopPropagation();
           return;
@@ -107,6 +107,7 @@ function render() {
         return;
       }
 
+      // normal click: select node and open panel
       selectedNode = d;
       document.getElementById("controls").style.display = "block";
       document.getElementById("selected-node-label").textContent = d.data.name;
@@ -114,6 +115,12 @@ function render() {
       document.getElementById("task-status").checked = !!d.data.status;
       document.getElementById("task-descricao").value = d.data.descricao || "";
       moveMode = false;
+      render();
+      event.stopPropagation();
+    })
+    .on("dblclick", (event, d) => {
+      // double-click toggles collapse/expand of children
+      d.data.collapsed = !d.data.collapsed;
       render();
       event.stopPropagation();
     })
@@ -187,6 +194,14 @@ function render() {
         : lineHeight))
       .text(t => t);
   });
+
+  // indicator for collapsed nodes that still have children
+  node.filter(d => d.data.collapsed && d.data.children && d.data.children.length > 0)
+    .append("text")
+    .attr("x", 0)
+    .attr("y", radius + 14)
+    .attr("font-size", 16)
+    .text("+");
 
   node.append("text")
     .attr("class", "edit-icon")

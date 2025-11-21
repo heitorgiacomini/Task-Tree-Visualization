@@ -5,6 +5,7 @@ class Task {
     this.percent = percent;
     this.children = children;
     this.descricao = descricao;
+    this.collapsed = false; // hide/show children in the tree
   }
 }
 

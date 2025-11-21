@@ -2,20 +2,34 @@
 
 ![Task Tree Screenshot](task-tree.jpg)
 
-| Feature | Descrição |
+## Features
+
+| Feature | Description |
 | --- | --- |
-| Modelo de tarefas hierárquicas | Estrutura em árvore usando classe `Task` com nome, status, percentual, descrição e filhos. |
-| Cálculo automático de progresso | Percentual e status de cada nó calculados dinamicamente a partir dos filhos. |
-| Visualização com D3.js | Árvore interativa em SVG com nós, ligações e setas renderizadas com D3.v7. |
-| Gradiente de cor por progresso | Cores dos nós variando suavemente conforme o percentual concluído. |
-| Seleção e destaque de nó | Clique em um nó para destacá-lo visualmente e carregar seus dados no painel. |
-| Tooltip com descrição | Exibição da descrição da tarefa ao passar o mouse sobre o nó. |
-| Edição de tarefas | Painel lateral para alterar nome, status (folhas) e descrição da tarefa selecionada. |
-| Criação de subtarefas | Botão para criar nós filhos sob o nó selecionado, iniciando como "Task" com status falso. |
-| Exclusão de nós | Remoção de nós selecionados, com proteção contra exclusão do nó raiz. |
-| Reorganização da hierarquia | Função "Mover para..." para mudar o pai de um nó sem permitir ciclos. |
-| Importação de JSON | Carregamento de árvores a partir de arquivo JSON ou `task-tree.json` padrão. |
-| Exportação em JSON | Exporta a estrutura de tarefas atual para arquivo JSON. |
-| Exportação em imagem | Exportação do diagrama em formatos PNG, JPEG e SVG preservando o estilo. |
-| Layout adaptativo | Largura/altura do SVG e espaçamento ajustados dinamicamente ao número de nós e profundidade. |
-| UX refinada do painel | Painel de edição fixo que não fecha durante seleção de texto nem ao interagir com os controles. |
+| Hierarchical task model | Tree structure using `Task` class with name, status, percent, description and children. |
+| Automatic progress calculation | Percent and status of each node computed dynamically from its children. |
+| D3.js visualization | Interactive SVG tree with nodes, links and arrow markers using D3 v7. |
+| Color gradient by progress | Node colors smoothly changing according to completion percentage. |
+| Node selection and highlight | Click a node to highlight it and load its data in the side panel. |
+| Tooltip with description | Shows task description when hovering the mouse over a node. |
+| Task editing panel | Side panel to change name, status (for leaf nodes) and description. |
+| Subtask creation | Button to create child nodes under the selected node, starting as "Task" with false status. |
+| Node deletion | Remove selected nodes with protection against deleting the root node. |
+| Hierarchy reparenting | "Move to..." feature to change a node's parent without creating cycles. |
+| JSON import | Load trees from a JSON file or default `task-tree.json`. |
+| JSON export | Export the current task structure to a JSON file. |
+| Image export | Export the diagram as PNG, JPEG or SVG preserving styling. |
+| Adaptive layout | SVG width/height and spacing adapt dynamically to node count and depth. |
+| Refined panel UX | Edit panel stays open while interacting and does not close on text selection. |
+| Collapse/expand children | Double-click a node to hide or show its child subtree. |
+| Collapse indicator | A small `+` indicator below a collapsed node shows it has hidden children. |
+
+## Mouse interactions
+
+| Action | Effect |
+| --- | --- |
+| Single click on a node | Selects the node, highlights it and loads its data into the side panel. |
+| Double click on a node | Toggles collapse/expand of that node's children; a `+` marker appears when it has hidden children. |
+| Hover over a node | Shows a tooltip with the node's description (if filled). |
+| Click on empty space | Deselects any node and hides the side panel. |
+| Drag to select text in panel | Only affects panel fields; the diagram is not changed. |
