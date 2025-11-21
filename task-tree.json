@@ -1,30 +1,30 @@
 {
   "name": "Sinter",
   "status": false,
-  "percent": 11.76470588235294,
+  "percent": 18.75,
   "children": [
     {
       "name": "Version Control Gitlab",
-      "status": false,
-      "percent": 0,
+      "status": true,
+      "percent": 100,
       "children": [
         {
           "name": "GitLab CICD",
-          "status": false,
-          "percent": 0,
+          "status": true,
+          "percent": 100,
           "children": [
             {
               "name": "Security Dependency Scanning Snyk",
-              "status": false,
-              "percent": 0,
+              "status": true,
+              "percent": 100,
               "children": [],
               "descricao": "",
               "collapsed": false
             },
             {
               "name": "Static Analysis Linting SonarQube",
-              "status": false,
-              "percent": 0,
+              "status": true,
+              "percent": 100,
               "children": [],
               "descricao": "SonarQube, ESLint, Checkstyle",
               "collapsed": false
@@ -35,16 +35,16 @@
         },
         {
           "name": "Runner",
-          "status": false,
-          "percent": 0,
+          "status": true,
+          "percent": 100,
           "children": [],
           "descricao": "",
           "collapsed": false
         },
         {
           "name": "Registry",
-          "status": false,
-          "percent": 0,
+          "status": true,
+          "percent": 100,
           "children": [],
           "descricao": "",
           "collapsed": false
@@ -60,8 +60,8 @@
       "children": [
         {
           "name": "Keycloak SSO",
-          "status": false,
-          "percent": 0,
+          "status": true,
+          "percent": 100,
           "children": [],
           "descricao": "",
           "collapsed": false
@@ -69,7 +69,7 @@
         {
           "name": "Aplicacao",
           "status": false,
-          "percent": 0,
+          "percent": 11.11111111111111,
           "children": [
             {
               "name": "Multi Tenant",
@@ -144,12 +144,12 @@
                 {
                   "name": ".Net",
                   "status": false,
-                  "percent": 87.5,
+                  "percent": 62.5,
                   "children": [
                     {
                       "name": "Retry limit",
-                      "status": true,
-                      "percent": 100,
+                      "status": false,
+                      "percent": 0,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -164,8 +164,8 @@
                     },
                     {
                       "name": "Testes XUnit",
-                      "status": true,
-                      "percent": 100,
+                      "status": false,
+                      "percent": 0,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -180,8 +180,8 @@
                     },
                     {
                       "name": "Refit",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -204,8 +204,8 @@
                     },
                     {
                       "name": "Retry-Pattern Circuit-Breaker Exponential-Backoff",
-                      "status": true,
-                      "percent": 100,
+                      "status": false,
+                      "percent": 0,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -226,28 +226,28 @@
                 {
                   "name": "Angular",
                   "status": false,
-                  "percent": 33.33333333333333,
+                  "percent": 66.66666666666666,
                   "children": [
                     {
                       "name": "Datatable",
-                      "status": false,
-                      "percent": 0,
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
-                      "name": "Task",
-                      "status": false,
-                      "percent": 0,
+                      "name": "Forms",
+                      "status": true,
+                      "percent": 100,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
                     },
                     {
                       "name": "Storybook",
-                      "status": true,
-                      "percent": 100,
+                      "status": false,
+                      "percent": 0,
                       "children": [],
                       "descricao": "",
                       "collapsed": false
@@ -262,8 +262,8 @@
             },
             {
               "name": "Features",
-              "status": false,
-              "percent": 0,
+              "status": true,
+              "percent": 100,
               "children": [],
               "descricao": "aplicacao-> relatorios, filtros, imagens, geo localização, upload e download de arquivos, is Required – Validation",
               "collapsed": false
@@ -275,12 +275,12 @@
         {
           "name": "DB Postgres",
           "status": false,
-          "percent": 50,
+          "percent": 0,
           "children": [
             {
               "name": "Criptografado",
-              "status": true,
-              "percent": 100,
+              "status": false,
+              "percent": 0,
               "children": [],
               "descricao": "",
               "collapsed": false
@@ -299,8 +299,8 @@
         },
         {
           "name": "Graceful Shutdown",
-          "status": true,
-          "percent": 100,
+          "status": false,
+          "percent": 0,
           "children": [],
           "descricao": "",
           "collapsed": false
@@ -393,14 +393,6 @@
       "name": "Portainer",
       "status": true,
       "percent": 100,
-      "children": [],
-      "descricao": "",
-      "collapsed": false
-    },
-    {
-      "name": "Task",
-      "status": false,
-      "percent": 0,
       "children": [],
       "descricao": "",
       "collapsed": false

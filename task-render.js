@@ -155,6 +155,11 @@ function render() {
 
   node.append("path")
     .attr("d", d => {
+      // do not draw the pie when this node is selected, so the
+      // selection highlight color remains clearly visible
+      if (selectedNode && selectedNode.data === d.data) {
+        return null;
+      }
       const p = Math.max(0, Math.min(100, d.data.percent || 0));
       const angle = (p / 100) * 2 * Math.PI;
       if (p <= 0) {
