@@ -1,12 +1,12 @@
 {
   "name": "Sinter",
   "status": false,
-  "percent": 10,
+  "percent": 5,
   "children": [
     {
       "name": "Version Control Gitlab",
-      "status": true,
-      "percent": 100,
+      "status": false,
+      "percent": 75,
       "children": [
         {
           "name": "GitLab CICD",
@@ -48,6 +48,14 @@
           "children": [],
           "descricao": "",
           "collapsed": false
+        },
+        {
+          "name": "Bots",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
         }
       ],
       "descricao": "",
@@ -63,7 +71,7 @@
           "status": true,
           "percent": 100,
           "children": [],
-          "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso",
+          "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso\n\nhttps://github.com/thomasdarimont/awesome-keycloak\n\nmicrosoft users\n\n\n",
           "collapsed": false
         },
         {
@@ -248,7 +256,7 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": "https://github.com/meysamhadeli/booking-modular-monolith\n\nhttps://github.com/jasontaylordev/CleanArchitecture\n\nhttps://github.com/ardalis/CleanArchitecture\n\nhttps://fullstackhero.net/\n\nhttps://serenity.is/docs/\n\nabp.io\n\nhttps://github.com/spark-dotnet/framework\n\nhttps://github.com/gothinkster/aspnetcore-realworld-example-app\n\nhttps://github.com/oqtane/oqtane.framework\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/unoplatform/uno\n\nhttps://github.com/KUTlime/Stock-value\n\nhttps://github.com/jhipster/jhipster-dotnetcore\n\nhttps://github.com/heynickc/awesome-ddd?tab=readme-ov-file#net-cf\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                      "descricao": "https://github.com/meysamhadeli/booking-modular-monolith\n\nhttps://github.com/jasontaylordev/CleanArchitecture\n\nhttps://github.com/ardalis/CleanArchitecture\n\nhttps://fullstackhero.net/\n\nhttps://serenity.is/docs/\n\nabp.io\n\nhttps://github.com/spark-dotnet/framework\n\nhttps://github.com/gothinkster/aspnetcore-realworld-example-app\n\nhttps://github.com/oqtane/oqtane.framework\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/unoplatform/uno\n\nhttps://github.com/KUTlime/Stock-value\n\nhttps://github.com/jhipster/jhipster-dotnetcore\n\nhttps://github.com/heynickc/awesome-ddd?tab=readme-ov-file#net-cf\n\nhttps://github.com/NetDevPack/NetDevPack\n\nhttps://github.com/EduardoPires/EquinoxProject/\n\n\n\n\n\n\n\n\n\n\n\n\n",
                       "collapsed": false
                     },
                     {
@@ -256,7 +264,7 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": "Hangfire\n\nnodatime\n\nhttps://github.com/erikbra/grate SAFE MIGRATIONS\n\nZLinq\n\nprofiler check execution time: tipo network do browser\n\nNSwag\n\nhttps://apimundo.com/\n\nPolly\n\nrefit\n\nRulesEngine\n\ngeohash-dotnet\n\njinqu-odata\n\nMicrosoft Restier - OData Made Simple\n\nhttps://github.com/sketch7/ssv.ngx/blob/master/libs/ngx.command/README.md\n\nNBitcoin\n\nngx-extended-pdf-viewer\n\nProjNet4GeoAPI\n\nentityframework-dynamicfilter",
+                      "descricao": "Hangfire\n\nnodatime\n\nhttps://github.com/erikbra/grate SAFE MIGRATIONS\n\nZLinq\n\nprofiler check execution time: tipo network do browser\n\nNSwag\n\nhttps://apimundo.com/\n\nPolly\n\nrefit\n\nRulesEngine\n\ngeohash-dotnet\n\njinqu-odata\n\nMicrosoft Restier - OData Made Simple\n\nhttps://github.com/sketch7/ssv.ngx/blob/master/libs/ngx.command/README.md\n\nNBitcoin\n\nngx-extended-pdf-viewer\n\nProjNet4GeoAPI\n\nentityframework-dynamicfilter\n\nhttps://github.com/amis92/csharp-source-generators\n\nEventFlow\n",
                       "collapsed": false
                     }
                   ],
@@ -275,7 +283,7 @@
                 {
                   "name": "Angular",
                   "status": false,
-                  "percent": 16.666666666666664,
+                  "percent": 15.384615384615385,
                   "children": [
                     {
                       "name": "Datatable",
@@ -338,7 +346,7 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": "https://github.com/loiane/modern-angular\n\nhttps://github.com/trungvose/angular-spotify\n\nhttps://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app",
+                      "descricao": "https://github.com/loiane/modern-angular\n\nhttps://github.com/trungvose/angular-spotify\n\nhttps://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app\n\nhttps://github.com/bartuck/angular-best-boilerplate\n\nhttps://github.com/PatrickJS/awesome-angular\n\nhttps://github.com/coreui/coreui-free-angular-admin-template\n\n\n\n\n",
                       "collapsed": false
                     },
                     {
@@ -362,7 +370,7 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": "Turf \n\nprimeng-shadowdom-directives\n\nedit-in-place\n\nodata-builder\n\nodata-query-builder\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                      "descricao": "Turf \n\nprimeng-shadowdom-directives\n\nedit-in-place\n\nodata-builder\n\nodata-query-builder\n\nhttps://github.com/capacitor-community/background-geolocation\n\nhttps://github.com/haoliangyu/boundary.now?tab=readme-ov-file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
                       "collapsed": false
                     },
                     {
@@ -372,16 +380,16 @@
                       "children": [],
                       "descricao": "https://ngx-translate.org/",
                       "collapsed": false
+                    },
+                    {
+                      "name": "Module Based",
+                      "status": false,
+                      "percent": 0,
+                      "children": [],
+                      "descricao": "",
+                      "collapsed": false
                     }
                   ],
-                  "descricao": "",
-                  "collapsed": false
-                },
-                {
-                  "name": "React",
-                  "status": false,
-                  "percent": 0,
-                  "children": [],
                   "descricao": "",
                   "collapsed": false
                 }
@@ -492,7 +500,7 @@
           "collapsed": false
         }
       ],
-      "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.",
+      "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
       "collapsed": false
     },
     {
@@ -524,7 +532,7 @@
       "status": true,
       "percent": 100,
       "children": [],
-      "descricao": "Cloudflare\nnginx\ncaddy\n",
+      "descricao": "Cloudflare\nnginx\ncaddy\ncertbot",
       "collapsed": false
     },
     {
@@ -821,7 +829,7 @@
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": "",
+          "descricao": "SolidInvoice",
           "collapsed": false
         },
         {
@@ -861,7 +869,7 @@
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": "",
+          "descricao": "Annual reportBalance sheetCash-flowEquityIncomeManagement discussionFinancial statement analysis",
           "collapsed": false
         },
         {
@@ -869,11 +877,43 @@
           "status": false,
           "percent": 0,
           "children": [],
+          "descricao": "Calibre-Web Automated",
+          "collapsed": false
+        },
+        {
+          "name": "MiroTalk P2P",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "Tickets managements",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "nopcommerce",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "qloapps horal ",
+          "status": false,
+          "percent": 0,
+          "children": [],
           "descricao": "",
           "collapsed": false
         }
       ],
-      "descricao": "https://github.com/Haxxnet/Compose-Examples",
+      "descricao": "https://github.com/Haxxnet/Compose-Examples\n\ndemoUser ",
       "collapsed": false
     }
   ],
