@@ -64,13 +64,22 @@
     {
       "name": "Docker",
       "status": false,
-      "percent": 25,
+      "percent": 0,
       "children": [
         {
           "name": "Keycloak SSO",
-          "status": true,
-          "percent": 100,
-          "children": [],
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "social login",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            }
+          ],
           "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso\n\nhttps://github.com/thomasdarimont/awesome-keycloak\n\nmicrosoft users\n\n\n",
           "collapsed": false
         },
@@ -264,7 +273,7 @@
                       "status": false,
                       "percent": 0,
                       "children": [],
-                      "descricao": "Hangfire\n\nnodatime\n\nhttps://github.com/erikbra/grate SAFE MIGRATIONS\n\nZLinq\n\nprofiler check execution time: tipo network do browser\n\nNSwag\n\nhttps://apimundo.com/\n\nPolly\n\nrefit\n\nRulesEngine\n\ngeohash-dotnet\n\njinqu-odata\n\nMicrosoft Restier - OData Made Simple\n\nhttps://github.com/sketch7/ssv.ngx/blob/master/libs/ngx.command/README.md\n\nNBitcoin\n\nngx-extended-pdf-viewer\n\nProjNet4GeoAPI\n\nentityframework-dynamicfilter\n\nhttps://github.com/amis92/csharp-source-generators\n\nEventFlow\n",
+                      "descricao": "Hangfire\n\nnodatime\n\nhttps://github.com/erikbra/grate SAFE MIGRATIONS\n\nZLinq\n\nprofiler check execution time: tipo network do browser\n\nNSwag\n\nhttps://apimundo.com/\n\nPolly\n\nrefit\n\nRulesEngine\n\ngeohash-dotnet\n\njinqu-odata\n\nMicrosoft Restier - OData Made Simple\n\nhttps://github.com/sketch7/ssv.ngx/blob/master/libs/ngx.command/README.md\n\nNBitcoin\n\nngx-extended-pdf-viewer\n\nProjNet4GeoAPI\n\nentityframework-dynamicfilter\n\nhttps://github.com/amis92/csharp-source-generators\n\nEventFlow\n\nmetalama sourcegenerator",
                       "collapsed": false
                     }
                   ],
@@ -431,7 +440,7 @@
           "percent": 0,
           "children": [
             {
-              "name": "Criptografado",
+              "name": "Criptografia",
               "status": false,
               "percent": 0,
               "children": [],
