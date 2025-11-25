@@ -15,18 +15,16 @@ function computePercentFromStatus(node) {
     return node.percent;
   }
 
-  let completedChildren = 0;
-  let totalChildren = node.children.length;
+  const totalChildren = node.children.length;
+  let sumPercent = 0;
 
   node.children.forEach(child => {
     const childPercent = computePercentFromStatus(child);
-    if (childPercent >= 100) {
-      completedChildren++;
-    }
+    sumPercent += childPercent;
   });
 
-  node.percent = (completedChildren / totalChildren) * 100;
-  node.status = completedChildren === totalChildren;
+  node.percent = totalChildren > 0 ? sumPercent / totalChildren : 0;
+  node.status = node.percent >= 100;
   return node.percent;
 }
 
