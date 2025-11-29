@@ -1,215 +1,17 @@
 {
   "name": "Sinter",
   "status": false,
-  "percent": 6.62921637186343,
+  "percent": 17.07327572712188,
   "children": [
-    {
-      "name": "DEV+SEC+DATA+OPS",
-      "status": false,
-      "percent": 9.375,
-      "children": [
-        {
-          "name": "Bots",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "snyk",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "sonar qube",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Terraform",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Version Control Gitlab",
-          "status": false,
-          "percent": 75,
-          "children": [
-            {
-              "name": "Version Control Gitlab",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "GitLab CICD",
-              "status": true,
-              "percent": 100,
-              "children": [
-                {
-                  "name": "Security Dependency Scanning Snyk",
-                  "status": true,
-                  "percent": 100,
-                  "children": [],
-                  "descricao": "",
-                  "collapsed": false
-                },
-                {
-                  "name": "Static Analysis Linting SonarQube",
-                  "status": true,
-                  "percent": 100,
-                  "children": [],
-                  "descricao": "SonarQube, ESLint, Checkstyle",
-                  "collapsed": false
-                }
-              ],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "Runner",
-              "status": true,
-              "percent": 100,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "Registry",
-              "status": true,
-              "percent": 100,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            }
-          ],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Monitoring Observability",
-          "status": false,
-          "percent": 0,
-          "children": [
-            {
-              "name": "Komodo",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "coroot",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "pgmonitor",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "Beszel",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "Beszel",
-              "collapsed": false
-            }
-          ],
-          "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
-          "collapsed": false
-        },
-        {
-          "name": "container management platform",
-          "status": false,
-          "percent": 0,
-          "children": [
-            {
-              "name": "Portainer",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "dyrector.io",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "dockage",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            }
-          ],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Kubernetes",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        }
-      ],
-      "descricao": "",
-      "collapsed": false
-    },
     {
       "name": "Docker",
       "status": false,
-      "percent": 3.3216783216783217,
+      "percent": 2.4396543627312854,
       "children": [
-        {
-          "name": "Keycloak SSO",
-          "status": false,
-          "percent": 0,
-          "children": [
-            {
-              "name": "social login",
-              "status": false,
-              "percent": 0,
-              "children": [],
-              "descricao": "",
-              "collapsed": false
-            }
-          ],
-          "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso\n\nhttps://github.com/thomasdarimont/awesome-keycloak\n\nmicrosoft users\n\n\n",
-          "collapsed": false
-        },
         {
           "name": "Aplicacao",
           "status": false,
-          "percent": 13.286713286713287,
+          "percent": 11.242603550295858,
           "children": [
             {
               "name": "Multi Tenant",
@@ -266,23 +68,6 @@
               "percent": 0,
               "children": [],
               "descricao": "",
-              "collapsed": false
-            },
-            {
-              "name": "Payment",
-              "status": false,
-              "percent": 0,
-              "children": [
-                {
-                  "name": "btcpayserver",
-                  "status": false,
-                  "percent": 0,
-                  "children": [],
-                  "descricao": "",
-                  "collapsed": false
-                }
-              ],
-              "descricao": "strype\nmercado livre",
               "collapsed": false
             },
             {
@@ -552,6 +337,39 @@
               "children": [],
               "descricao": "",
               "collapsed": false
+            },
+            {
+              "name": "OWSP top 10",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Optimazation",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Keycloak SSO",
+              "status": false,
+              "percent": 0,
+              "children": [
+                {
+                  "name": "social login",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso\n\nhttps://github.com/thomasdarimont/awesome-keycloak\n\nmicrosoft users\n\n\n",
+              "collapsed": false
             }
           ],
           "descricao": "",
@@ -589,17 +407,541 @@
           "children": [],
           "descricao": "",
           "collapsed": false
+        },
+        {
+          "name": "DEV+SEC+DATA+OPS",
+          "status": false,
+          "percent": 10.714285714285714,
+          "children": [
+            {
+              "name": "Bots",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "snyk",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "sonar qube",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Terraform",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Version Control Gitlab",
+              "status": false,
+              "percent": 75,
+              "children": [
+                {
+                  "name": "Version Control Gitlab",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "GitLab CICD",
+                  "status": true,
+                  "percent": 100,
+                  "children": [
+                    {
+                      "name": "Security Dependency Scanning Snyk",
+                      "status": true,
+                      "percent": 100,
+                      "children": [],
+                      "descricao": "",
+                      "collapsed": false
+                    },
+                    {
+                      "name": "Static Analysis Linting SonarQube",
+                      "status": true,
+                      "percent": 100,
+                      "children": [],
+                      "descricao": "SonarQube, ESLint, Checkstyle",
+                      "collapsed": false
+                    }
+                  ],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "Runner",
+                  "status": true,
+                  "percent": 100,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "Registry",
+                  "status": true,
+                  "percent": 100,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Monitoring Observability",
+              "status": false,
+              "percent": 0,
+              "children": [
+                {
+                  "name": "Komodo",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "coroot",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "pgmonitor",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "Beszel",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "Beszel",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
+              "collapsed": false
+            },
+            {
+              "name": "container management platform",
+              "status": false,
+              "percent": 0,
+              "children": [
+                {
+                  "name": "Portainer",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "dyrector.io",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "dockage",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "",
+              "collapsed": false
+            }
+          ],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "Add-ons",
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "Documenso",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "AppStore",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Immich",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "converse.js",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "discord like",
+              "collapsed": false
+            },
+            {
+              "name": "Jellyfin",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "XMPP",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "classroomio",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "cal.com",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "cal.com",
+              "collapsed": false
+            },
+            {
+              "name": "simplex-chat",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "TastyIgniter",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "Restaurant",
+              "collapsed": false
+            },
+            {
+              "name": "akaunting",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "akaunting",
+              "collapsed": false
+            },
+            {
+              "name": "Invoice Ninja",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "SolidInvoice",
+              "collapsed": false
+            },
+            {
+              "name": "formbricks",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "formbricks",
+              "collapsed": false
+            },
+            {
+              "name": "Peppermint Open Source Issue management",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "typebot.io",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "erpnext",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "Annual report\nBalance sheet\nCash-flow\nEquity Income\nManagement discussion\nFinancial statement analysis\nmétricas financeiras (MRR, LTV, churn…\n\nPostHog",
+              "collapsed": false
+            },
+            {
+              "name": "booklore",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "Calibre-Web Automated",
+              "collapsed": false
+            },
+            {
+              "name": "MiroTalk P2P",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Tickets managements",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "nopcommerce",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "qloapps horal ",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Cockpit",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "https://github.com/cockpit-project/cockpit\nsysadmin login session in a web browser",
+              "collapsed": false
+            },
+            {
+              "name": "Forum",
+              "status": false,
+              "percent": 0,
+              "children": [
+                {
+                  "name": "Chatwoot",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "crowd.dev",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "Flarum",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "homepage",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "https://github.com/IceWhaleTech/CasaOS\n\nhugo",
+              "collapsed": false
+            },
+            {
+              "name": "AI",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Team Colaboration Tool",
+              "status": false,
+              "percent": 0,
+              "children": [
+                {
+                  "name": "AppFlowy",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "free notion",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Payment",
+              "status": false,
+              "percent": 0,
+              "children": [
+                {
+                  "name": "btcpayserver",
+                  "status": false,
+                  "percent": 0,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "strype\nmercado livre",
+              "collapsed": false
+            }
+          ],
+          "descricao": "https://github.com/Haxxnet/Compose-Examples\n\ndemoUser ",
+          "collapsed": false
+        },
+        {
+          "name": "Storage",
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "minio",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Nextcloud",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "\nNextcloud",
+              "collapsed": false
+            }
+          ],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "PM Management",
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "Project Planning System",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "opf/openproject",
+              "collapsed": false
+            }
+          ],
+          "descricao": "taiga.io, focalboard, redmine, planka.app",
+          "collapsed": false
+        },
+        {
+          "name": "KeyVault",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "infisical",
+          "collapsed": false
+        },
+        {
+          "name": "Documentação",
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "gitdiagram",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "notesnook",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "trillium",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "outline knowledge base for your team",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            }
+          ],
+          "descricao": "docusaurus",
+          "collapsed": false
         }
       ],
       "descricao": "",
-      "collapsed": false
-    },
-    {
-      "name": "KeyVault",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "infisical",
       "collapsed": false
     },
     {
@@ -619,71 +961,6 @@
       "collapsed": false
     },
     {
-      "name": "PM Management",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "taiga.io, focalboard, redmine, planka.app",
-      "collapsed": false
-    },
-    {
-      "name": "Documentação",
-      "status": false,
-      "percent": 0,
-      "children": [
-        {
-          "name": "gitdiagram",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "notesnook",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "trillium",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "outline knowledge base for your team",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        }
-      ],
-      "descricao": "docusaurus",
-      "collapsed": false
-    },
-    {
-      "name": "Team Colaboration Tool",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "",
-      "collapsed": false
-    },
-    {
-      "name": "Project Planning System",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "opf/openproject",
-      "collapsed": false
-    },
-    {
       "name": "Data Analisys",
       "status": false,
       "percent": 0,
@@ -700,270 +977,11 @@
       "collapsed": false
     },
     {
-      "name": "AI",
+      "name": "Kubernetes",
       "status": false,
       "percent": 0,
       "children": [],
       "descricao": "",
-      "collapsed": false
-    },
-    {
-      "name": "Storage",
-      "status": false,
-      "percent": 0,
-      "children": [
-        {
-          "name": "minio",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Nextcloud",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "\nNextcloud",
-          "collapsed": false
-        }
-      ],
-      "descricao": "",
-      "collapsed": false
-    },
-    {
-      "name": "Forum",
-      "status": false,
-      "percent": 0,
-      "children": [
-        {
-          "name": "Chatwoot",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "crowd.dev",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Flarum",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        }
-      ],
-      "descricao": "",
-      "collapsed": false
-    },
-    {
-      "name": "homepage",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "https://github.com/IceWhaleTech/CasaOS\n\nhugo",
-      "collapsed": false
-    },
-    {
-      "name": "Cockpit",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "https://github.com/cockpit-project/cockpit\nsysadmin login session in a web browser",
-      "collapsed": false
-    },
-    {
-      "name": "Add-ons",
-      "status": false,
-      "percent": 0,
-      "children": [
-        {
-          "name": "Documenso",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "AppStore",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Immich",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "converse.js",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "discord like",
-          "collapsed": false
-        },
-        {
-          "name": "Jellyfin",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "XMPP",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "classroomio",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "cal.com",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "cal.com",
-          "collapsed": false
-        },
-        {
-          "name": "simplex-chat",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "TastyIgniter",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "Restaurant",
-          "collapsed": false
-        },
-        {
-          "name": "akaunting",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "akaunting",
-          "collapsed": false
-        },
-        {
-          "name": "Invoice Ninja",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "SolidInvoice",
-          "collapsed": false
-        },
-        {
-          "name": "AppFlowy",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "free notion",
-          "collapsed": false
-        },
-        {
-          "name": "formbricks",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "formbricks",
-          "collapsed": false
-        },
-        {
-          "name": "Peppermint Open Source Issue management",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "typebot.io",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "erpnext",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "Annual report\nBalance sheet\nCash-flow\nEquity Income\nManagement discussion\nFinancial statement analysis\nmétricas financeiras (MRR, LTV, churn…\n\nPostHog",
-          "collapsed": false
-        },
-        {
-          "name": "booklore",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "Calibre-Web Automated",
-          "collapsed": false
-        },
-        {
-          "name": "MiroTalk P2P",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Tickets managements",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "nopcommerce",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "qloapps horal ",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        }
-      ],
-      "descricao": "https://github.com/Haxxnet/Compose-Examples\n\ndemoUser ",
       "collapsed": false
     }
   ],
