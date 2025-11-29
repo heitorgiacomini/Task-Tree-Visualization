@@ -1,20 +1,85 @@
 {
   "name": "Sinter",
   "status": false,
-  "percent": 5,
+  "percent": 6.62921637186343,
   "children": [
     {
-      "name": "Version Control Gitlab",
+      "name": "DEV+SEC+DATA+OPS",
       "status": false,
-      "percent": 75,
+      "percent": 9.375,
       "children": [
         {
-          "name": "GitLab CICD",
-          "status": true,
-          "percent": 100,
+          "name": "Bots",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "snyk",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "sonar qube",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "Terraform",
+          "status": false,
+          "percent": 0,
+          "children": [],
+          "descricao": "",
+          "collapsed": false
+        },
+        {
+          "name": "Version Control Gitlab",
+          "status": false,
+          "percent": 75,
           "children": [
             {
-              "name": "Security Dependency Scanning Snyk",
+              "name": "Version Control Gitlab",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "GitLab CICD",
+              "status": true,
+              "percent": 100,
+              "children": [
+                {
+                  "name": "Security Dependency Scanning Snyk",
+                  "status": true,
+                  "percent": 100,
+                  "children": [],
+                  "descricao": "",
+                  "collapsed": false
+                },
+                {
+                  "name": "Static Analysis Linting SonarQube",
+                  "status": true,
+                  "percent": 100,
+                  "children": [],
+                  "descricao": "SonarQube, ESLint, Checkstyle",
+                  "collapsed": false
+                }
+              ],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Runner",
               "status": true,
               "percent": 100,
               "children": [],
@@ -22,11 +87,11 @@
               "collapsed": false
             },
             {
-              "name": "Static Analysis Linting SonarQube",
+              "name": "Registry",
               "status": true,
               "percent": 100,
               "children": [],
-              "descricao": "SonarQube, ESLint, Checkstyle",
+              "descricao": "",
               "collapsed": false
             }
           ],
@@ -34,23 +99,81 @@
           "collapsed": false
         },
         {
-          "name": "Runner",
-          "status": true,
-          "percent": 100,
-          "children": [],
+          "name": "Monitoring Observability",
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "Komodo",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "coroot",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "pgmonitor",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "Beszel",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "Beszel",
+              "collapsed": false
+            }
+          ],
+          "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
+          "collapsed": false
+        },
+        {
+          "name": "container management platform",
+          "status": false,
+          "percent": 0,
+          "children": [
+            {
+              "name": "Portainer",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "dyrector.io",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            },
+            {
+              "name": "dockage",
+              "status": false,
+              "percent": 0,
+              "children": [],
+              "descricao": "",
+              "collapsed": false
+            }
+          ],
           "descricao": "",
           "collapsed": false
         },
         {
-          "name": "Registry",
-          "status": true,
-          "percent": 100,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Bots",
+          "name": "Kubernetes",
           "status": false,
           "percent": 0,
           "children": [],
@@ -64,7 +187,7 @@
     {
       "name": "Docker",
       "status": false,
-      "percent": 0,
+      "percent": 3.3216783216783217,
       "children": [
         {
           "name": "Keycloak SSO",
@@ -86,7 +209,7 @@
         {
           "name": "Aplicacao",
           "status": false,
-          "percent": 9.090909090909092,
+          "percent": 13.286713286713287,
           "children": [
             {
               "name": "Multi Tenant",
@@ -165,7 +288,7 @@
             {
               "name": "Back-end",
               "status": false,
-              "percent": 0,
+              "percent": 30.76923076923077,
               "children": [
                 {
                   "name": ".Net",
@@ -287,7 +410,7 @@
             {
               "name": "Front-End",
               "status": false,
-              "percent": 0,
+              "percent": 15.384615384615385,
               "children": [
                 {
                   "name": "Angular",
@@ -472,60 +595,11 @@
       "collapsed": false
     },
     {
-      "name": "Monitoring Observability",
-      "status": false,
-      "percent": 0,
-      "children": [
-        {
-          "name": "Komodo",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "coroot",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "pgmonitor",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "Beszel",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "Beszel",
-          "collapsed": false
-        }
-      ],
-      "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
-      "collapsed": false
-    },
-    {
       "name": "KeyVault",
       "status": false,
       "percent": 0,
       "children": [],
       "descricao": "infisical",
-      "collapsed": false
-    },
-    {
-      "name": "Kubernetes",
-      "status": false,
-      "percent": 0,
-      "children": [],
-      "descricao": "",
       "collapsed": false
     },
     {
@@ -615,39 +689,6 @@
       "percent": 0,
       "children": [],
       "descricao": "metabase",
-      "collapsed": false
-    },
-    {
-      "name": "container management platform",
-      "status": false,
-      "percent": 0,
-      "children": [
-        {
-          "name": "Portainer",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "dyrector.io",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        },
-        {
-          "name": "dockage",
-          "status": false,
-          "percent": 0,
-          "children": [],
-          "descricao": "",
-          "collapsed": false
-        }
-      ],
-      "descricao": "",
       "collapsed": false
     },
     {
@@ -774,7 +815,7 @@
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": "",
+          "descricao": "discord like",
           "collapsed": false
         },
         {
@@ -878,7 +919,7 @@
           "status": false,
           "percent": 0,
           "children": [],
-          "descricao": "Annual reportBalance sheetCash-flowEquityIncomeManagement discussionFinancial statement analysis",
+          "descricao": "Annual report\nBalance sheet\nCash-flow\nEquity Income\nManagement discussion\nFinancial statement analysis\nmétricas financeiras (MRR, LTV, churn…\n\nPostHog",
           "collapsed": false
         },
         {
