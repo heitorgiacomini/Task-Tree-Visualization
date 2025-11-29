@@ -847,7 +847,7 @@
             }
           ],
           "descricao": "https://github.com/Haxxnet/Compose-Examples\n\ndemoUser ",
-          "collapsed": false
+          "collapsed": true
         },
         {
           "name": "Storage",

@@ -115,6 +115,7 @@ function render() {
       document.getElementById("task-status").checked = !!d.data.status;
       document.getElementById("task-descricao").value = d.data.descricao || "";
       moveMode = false;
+      // re-render so the selected node gets the 'selected' CSS class
       render();
       event.stopPropagation();
     })
@@ -198,8 +199,9 @@ function render() {
   node.filter(d => d.data.collapsed && d.data.children && d.data.children.length > 0)
     .append("text")
     .attr("x", 0)
-    .attr("y", radius + 14)
-    .attr("font-size", 16)
+    .attr("class", "collapse-indicator")
+    .attr("y", radius + 8)   // closer to the circle
+    .attr("font-weight", "bold")
     .text("+");
 
   node.append("text")

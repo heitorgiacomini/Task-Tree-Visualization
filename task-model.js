@@ -1,11 +1,11 @@
 class Task {
-  constructor(name, status = false, percent = 0, children = [], descricao = "") {
+  constructor(name, status = false, percent = 0, children = [], descricao = "", collapsed = false) {
     this.name = name;
     this.status = status;
     this.percent = percent;
     this.children = children;
     this.descricao = descricao;
-    this.collapsed = false; // hide/show children in the tree
+    this.collapsed = collapsed; // hide/show children in the tree
   }
 }
 
@@ -35,6 +35,7 @@ function plainObjectToTask(obj) {
     !!obj.status,
     typeof obj.percent === "number" ? obj.percent : 0,
     children,
-    obj.descricao || ""
+    obj.descricao || "",
+    !!obj.collapsed
   );
 }
