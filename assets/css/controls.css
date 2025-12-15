@@ -1,0 +1,102 @@
+#controls {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  font-family: Arial, sans-serif;
+  z-index: 10;
+  display: none;
+}
+
+#controls.dragging {
+  opacity: 0.98;
+}
+
+#controls-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: move;
+  font-weight: bold;
+  user-select: none;
+  margin-bottom: 8px;
+}
+
+#controls.dragging #controls-header {
+  cursor: grabbing;
+}
+
+#controls-header #controls-title {
+  flex: 1;
+}
+
+#controls-selected {
+  margin-bottom: 8px;
+}
+
+#btn-close-controls {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  color: #666;
+}
+
+#btn-close-controls:hover,
+#btn-close-controls:focus {
+  color: #111;
+  outline: none;
+}
+
+#controls-row {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: flex-start;
+}
+
+#controls-row input[type="text"],
+#controls-row textarea {
+  width: 220px;
+}
+
+#buttons-row {
+  margin-top: 4px;
+  display: flex;
+  gap: 6px;
+}
+
+#buttons-row button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+#btn-create-child {
+  background-color: #c8f7c5; /* verde pastel */
+  color: #145a32;
+}
+
+#btn-update {
+  background-color: #cfe9ff; /* azul pastel */
+  color: #154360;
+}
+
+#btn-delete {
+  background-color: #ffd6d6; /* vermelho pastel */
+  color: #7b241c;
+}
+
+.edit-icon {
+  font-size: 18px;
+  fill: blue;
+  pointer-events: none;
+}
