@@ -1,0 +1,1204 @@
+{
+    "name": "qwerSinter",
+    "status": false,
+    "percent": 17.179078637411973,
+    "children": [
+        {
+            "name": "Docker",
+            "status": false,
+            "percent": 3.0744718244718245,
+            "children": [
+                {
+                    "name": "Aplicacao",
+                    "status": false,
+                    "percent": 12.194055944055945,
+                    "children": [
+                        {
+                            "name": "Multi Tenant",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929659"
+                        },
+                        {
+                            "name": "failover scenarios",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": ".net HealthCheck, kuma",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929660"
+                        },
+                        {
+                            "name": "Ohara",
+                            "status": false,
+                            "percent": 0,
+                            "children": [
+                                {
+                                    "name": "Prevent unauthorized access to entities properties",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "via dto",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929662"
+                                },
+                                {
+                                    "name": "keycloak integration",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929663"
+                                }
+                            ],
+                            "descricao": "GraphQL ",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929661"
+                        },
+                        {
+                            "name": "Back-end",
+                            "status": false,
+                            "percent": 18.75,
+                            "children": [
+                                {
+                                    "name": ".Net",
+                                    "status": false,
+                                    "percent": 18.75,
+                                    "children": [
+                                        {
+                                            "name": "Audit logs",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_mj7kg58iplbvsn"
+                                        },
+                                        {
+                                            "name": "Retry limit",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929668"
+                                        },
+                                        {
+                                            "name": "DDD",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [
+                                                {
+                                                    "name": "tatical",
+                                                    "status": false,
+                                                    "percent": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "entity",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_mj7kkexe4jmio4"
+                                                        },
+                                                        {
+                                                            "name": "value object",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_mj7kkfail8fd87"
+                                                        },
+                                                        {
+                                                            "name": "aggregate",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_mj7kkfnm7ubdrq"
+                                                        },
+                                                        {
+                                                            "name": "domain events",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_mj7kkg2ig7hh9f"
+                                                        }
+                                                    ],
+                                                    "descricao": "https://www.growthinnovationstrategy.com/insights/context-mapping-a-practical-guide-for-innovators",
+                                                    "collapsed": false,
+                                                    "_uid": "uid_1765827929671"
+                                                },
+                                                {
+                                                    "name": "strategic",
+                                                    "status": false,
+                                                    "percent": 0,
+                                                    "children": [
+                                                        {
+                                                            "name": "Context mapping",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_1765827929670"
+                                                        },
+                                                        {
+                                                            "name": "Bounded Contexts",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_mj7kjahuulse45"
+                                                        },
+                                                        {
+                                                            "name": "Ubiquitous Language",
+                                                            "status": false,
+                                                            "percent": 0,
+                                                            "children": [],
+                                                            "descricao": "",
+                                                            "collapsed": false,
+                                                            "_uid": "uid_mj7kjauii933fu"
+                                                        }
+                                                    ],
+                                                    "descricao": "",
+                                                    "collapsed": false,
+                                                    "_uid": "uid_mj7kiywikosfjj"
+                                                }
+                                            ],
+                                            "descricao": "actor based architecture\nvertical sliced",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929669"
+                                        },
+                                        {
+                                            "name": "Testes XUnit",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929672"
+                                        },
+                                        {
+                                            "name": "Mapperly / AutoMapper",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929673"
+                                        },
+                                        {
+                                            "name": "EntityFramework",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929674"
+                                        },
+                                        {
+                                            "name": "Fluent Validation",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929675"
+                                        },
+                                        {
+                                            "name": "Retry-Pattern Circuit-Breaker Exponential-Backoff",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929676"
+                                        },
+                                        {
+                                            "name": "dataannotation validable object",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929677"
+                                        },
+                                        {
+                                            "name": "Cancellation Token",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929678"
+                                        },
+                                        {
+                                            "name": "MessageQueue",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "System.Threading.Channels;",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929679"
+                                        },
+                                        {
+                                            "name": "HealthChecker",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929680"
+                                        },
+                                        {
+                                            "name": "Referencia",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "orchardcore\nhttps://github.com/meysamhadeli/booking-modular-monolith\n\nhttps://github.com/jasontaylordev/CleanArchitecture\n\nhttps://github.com/ardalis/CleanArchitecture\n\nhttps://fullstackhero.net/\n\nhttps://serenity.is/docs/\n\nabp.io\n\nhttps://github.com/spark-dotnet/framework\n\nhttps://github.com/gothinkster/aspnetcore-realworld-example-app\n\nhttps://github.com/oqtane/oqtane.framework\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/unoplatform/uno\n\nhttps://github.com/KUTlime/Stock-value\n\nhttps://github.com/jhipster/jhipster-dotnetcore\n\nhttps://github.com/heynickc/awesome-ddd?tab=readme-ov-file#net-cf\n\nhttps://github.com/NetDevPack/NetDevPack\n\nhttps://github.com/EduardoPires/EquinoxProject/\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929681"
+                                        },
+                                        {
+                                            "name": "libs",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "Hangfire\n\nnodatime\n\nhttps://github.com/erikbra/grate SAFE MIGRATIONS\n\nZLinq\n\nprofiler check execution time: tipo network do browser\n\nNSwag\n\nhttps://apimundo.com/\n\nPolly\n\nrefit\n\nRulesEngine\n\ngeohash-dotnet\n\njinqu-odata\n\nMicrosoft Restier - OData Made Simple\n\nhttps://github.com/sketch7/ssv.ngx/blob/master/libs/ngx.command/README.md\n\nNBitcoin\n\nngx-extended-pdf-viewer\n\nProjNet4GeoAPI\n\nentityframework-dynamicfilter\n\nhttps://github.com/amis92/csharp-source-generators\n\nEventFlow\n\nmetalama sourcegenerator",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929682"
+                                        },
+                                        {
+                                            "name": "Faker Seeder",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_mj7ke8dfklkynp"
+                                        },
+                                        {
+                                            "name": "IAuditable Aggregate",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_mj7ke8ubert5b6"
+                                        }
+                                    ],
+                                    "descricao": "akka.net\ncqrs\nfastendpoint\n.NET implementation of the actor model\n\nSetTimeZoneInfo(TimeZoneInfo\nConfigurations\nException Handling\nLocalization\nApplication Startup\nCaching\nCORS\nHangfire\nLogging\nMail Service\nMiddlewares\nMultitenancy\nSecurity\nSignalR\nSwagger\n",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929667"
+                                }
+                            ],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929666"
+                        },
+                        {
+                            "name": "Front-End",
+                            "status": false,
+                            "percent": 15.384615384615385,
+                            "children": [
+                                {
+                                    "name": "Angular",
+                                    "status": false,
+                                    "percent": 15.384615384615385,
+                                    "children": [
+                                        {
+                                            "name": "Datatable",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929685"
+                                        },
+                                        {
+                                            "name": "Forms",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929686"
+                                        },
+                                        {
+                                            "name": "Storybook",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929687"
+                                        },
+                                        {
+                                            "name": "f-flow",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929688"
+                                        },
+                                        {
+                                            "name": "Knip",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "Knip finds and fixes unused dependencies, exports and files in your JavaScript and TypeScript projects. Less code and dependencies lead to improved performance, less maintenance and easier refactorings.",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929689"
+                                        },
+                                        {
+                                            "name": "Rollup Plugin Visualizer",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929690"
+                                        },
+                                        {
+                                            "name": "Signals ",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929691"
+                                        },
+                                        {
+                                            "name": "Referencia",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "https://github.com/loiane/modern-angular\n\nhttps://github.com/trungvose/angular-spotify\n\nhttps://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app\n\nhttps://github.com/bartuck/angular-best-boilerplate\n\nhttps://github.com/PatrickJS/awesome-angular\n\nhttps://github.com/coreui/coreui-free-angular-admin-template\n\n\n\n\n",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929692"
+                                        },
+                                        {
+                                            "name": "Darkmode",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929693"
+                                        },
+                                        {
+                                            "name": "ngx-ui-builder",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "plasmic\n\nformcms",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929694"
+                                        },
+                                        {
+                                            "name": "libs",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "Turf \n\nprimeng-shadowdom-directives\n\nedit-in-place\n\nodata-builder\n\nodata-query-builder\n\nhttps://github.com/capacitor-community/background-geolocation\n\nhttps://github.com/haoliangyu/boundary.now?tab=readme-ov-file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929695"
+                                        },
+                                        {
+                                            "name": "n18n",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "https://ngx-translate.org/",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929696"
+                                        },
+                                        {
+                                            "name": "Module Based",
+                                            "status": false,
+                                            "percent": 0,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929697"
+                                        }
+                                    ],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929684"
+                                }
+                            ],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929683"
+                        },
+                        {
+                            "name": "Features",
+                            "status": true,
+                            "percent": 100,
+                            "children": [],
+                            "descricao": "aplicacao-> relatorios, filtros, imagens, geo localização, upload e download de arquivos, is Required – Validation\n\ntypesense",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929698"
+                        },
+                        {
+                            "name": "Redis Cache",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929699"
+                        },
+                        {
+                            "name": "Resorce limit",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929700"
+                        },
+                        {
+                            "name": "OWSP top 10",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929701"
+                        },
+                        {
+                            "name": "Optimization",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929702"
+                        },
+                        {
+                            "name": "Keycloak SSO",
+                            "status": false,
+                            "percent": 0,
+                            "children": [
+                                {
+                                    "name": "social login",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929704"
+                                }
+                            ],
+                            "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso\n\nhttps://github.com/thomasdarimont/awesome-keycloak\n\nmicrosoft users\n\n\n",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929703"
+                        }
+                    ],
+                    "descricao": "",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929658"
+                },
+                {
+                    "name": "DB Postgres",
+                    "status": false,
+                    "percent": 0,
+                    "children": [
+                        {
+                            "name": "Criptografia",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929706"
+                        },
+                        {
+                            "name": "Forbid DDL ",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929707"
+                        }
+                    ],
+                    "descricao": "",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929705"
+                },
+                {
+                    "name": "Graceful Shutdown",
+                    "status": false,
+                    "percent": 0,
+                    "children": [],
+                    "descricao": "",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929708"
+                },
+                {
+                    "name": "DEV+SEC+DATA+OPS",
+                    "status": false,
+                    "percent": 15.476190476190478,
+                    "children": [
+                        {
+                            "name": "Bots",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929710"
+                        },
+                        {
+                            "name": "snyk",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929711"
+                        },
+                        {
+                            "name": "sonar qube",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929712"
+                        },
+                        {
+                            "name": "Terraform",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929713"
+                        },
+                        {
+                            "name": "Version Control Gitlab",
+                            "status": false,
+                            "percent": 75,
+                            "children": [
+                                {
+                                    "name": "Version Control Gitlab",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929715"
+                                },
+                                {
+                                    "name": "GitLab CICD",
+                                    "status": true,
+                                    "percent": 100,
+                                    "children": [
+                                        {
+                                            "name": "Security Dependency Scanning Snyk",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929717"
+                                        },
+                                        {
+                                            "name": "Static Analysis Linting SonarQube",
+                                            "status": true,
+                                            "percent": 100,
+                                            "children": [],
+                                            "descricao": "SonarQube, ESLint, Checkstyle",
+                                            "collapsed": false,
+                                            "_uid": "uid_1765827929718"
+                                        }
+                                    ],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929716"
+                                },
+                                {
+                                    "name": "Runner",
+                                    "status": true,
+                                    "percent": 100,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929719"
+                                },
+                                {
+                                    "name": "Registry",
+                                    "status": true,
+                                    "percent": 100,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929720"
+                                }
+                            ],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929714"
+                        },
+                        {
+                            "name": "Monitoring Observability",
+                            "status": false,
+                            "percent": 0,
+                            "children": [
+                                {
+                                    "name": "Komodo",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929722"
+                                },
+                                {
+                                    "name": "coroot",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929723"
+                                },
+                                {
+                                    "name": "pgmonitor",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929724"
+                                },
+                                {
+                                    "name": "Beszel",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "Beszel",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929725"
+                                }
+                            ],
+                            "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929721"
+                        },
+                        {
+                            "name": "container management platform",
+                            "status": false,
+                            "percent": 33.333333333333336,
+                            "children": [
+                                {
+                                    "name": "Portainer",
+                                    "status": true,
+                                    "percent": 100,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": true,
+                                    "_uid": "uid_1765827929727"
+                                },
+                                {
+                                    "name": "dyrector.io",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929728"
+                                },
+                                {
+                                    "name": "dockage",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929729"
+                                }
+                            ],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929726"
+                        }
+                    ],
+                    "descricao": "",
+                    "collapsed": true,
+                    "_uid": "uid_1765827929709"
+                },
+                {
+                    "name": "Add-ons",
+                    "status": false,
+                    "percent": 0,
+                    "children": [
+                        {
+                            "name": "Documenso",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929731"
+                        },
+                        {
+                            "name": "AppStore",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929732"
+                        },
+                        {
+                            "name": "Immich",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929733"
+                        },
+                        {
+                            "name": "converse.js",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "discord like",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929734"
+                        },
+                        {
+                            "name": "Jellyfin",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929735"
+                        },
+                        {
+                            "name": "XMPP",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929736"
+                        },
+                        {
+                            "name": "classroomio",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929737"
+                        },
+                        {
+                            "name": "cal.com",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "cal.com",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929738"
+                        },
+                        {
+                            "name": "simplex-chat",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929739"
+                        },
+                        {
+                            "name": "TastyIgniter",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "Restaurant",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929740"
+                        },
+                        {
+                            "name": "akaunting",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "akaunting",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929741"
+                        },
+                        {
+                            "name": "Invoice Ninja",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "SolidInvoice",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929742"
+                        },
+                        {
+                            "name": "formbricks",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "formbricks",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929743"
+                        },
+                        {
+                            "name": "Peppermint Open Source Issue management",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929744"
+                        },
+                        {
+                            "name": "typebot.io",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929745"
+                        },
+                        {
+                            "name": "erpnext",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "Annual report\nBalance sheet\nCash-flow\nEquity Income\nManagement discussion\nFinancial statement analysis\nmétricas financeiras (MRR, LTV, churn…\n\nPostHog",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929746"
+                        },
+                        {
+                            "name": "booklore",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "Calibre-Web Automated",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929747"
+                        },
+                        {
+                            "name": "MiroTalk P2P",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929748"
+                        },
+                        {
+                            "name": "Tickets managements",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929749"
+                        },
+                        {
+                            "name": "nopcommerce",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929750"
+                        },
+                        {
+                            "name": "qloapps horal ",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929751"
+                        },
+                        {
+                            "name": "Cockpit",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "https://github.com/cockpit-project/cockpit\nsysadmin login session in a web browser",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929752"
+                        },
+                        {
+                            "name": "Forum",
+                            "status": false,
+                            "percent": 0,
+                            "children": [
+                                {
+                                    "name": "Chatwoot",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929754"
+                                },
+                                {
+                                    "name": "crowd.dev",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929755"
+                                },
+                                {
+                                    "name": "Flarum",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929756"
+                                }
+                            ],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929753"
+                        },
+                        {
+                            "name": "homepage",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "https://github.com/IceWhaleTech/CasaOS\n\nhugo",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929757"
+                        },
+                        {
+                            "name": "AI",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929758"
+                        },
+                        {
+                            "name": "Team Colaboration Tool",
+                            "status": false,
+                            "percent": 0,
+                            "children": [
+                                {
+                                    "name": "AppFlowy",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "free notion",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929760"
+                                }
+                            ],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929759"
+                        },
+                        {
+                            "name": "Payment",
+                            "status": false,
+                            "percent": 0,
+                            "children": [
+                                {
+                                    "name": "btcpayserver",
+                                    "status": false,
+                                    "percent": 0,
+                                    "children": [],
+                                    "descricao": "",
+                                    "collapsed": false,
+                                    "_uid": "uid_1765827929762"
+                                }
+                            ],
+                            "descricao": "strype\nmercado livre",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929761"
+                        }
+                    ],
+                    "descricao": "https://github.com/Haxxnet/Compose-Examples\n\ndemoUser ",
+                    "collapsed": true,
+                    "_uid": "uid_1765827929730"
+                },
+                {
+                    "name": "Storage",
+                    "status": false,
+                    "percent": 0,
+                    "children": [
+                        {
+                            "name": "minio",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929764"
+                        },
+                        {
+                            "name": "Nextcloud",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "\nNextcloud",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929765"
+                        }
+                    ],
+                    "descricao": "",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929763"
+                },
+                {
+                    "name": "PM Management",
+                    "status": false,
+                    "percent": 0,
+                    "children": [
+                        {
+                            "name": "Project Planning System",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "opf/openproject",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929767"
+                        }
+                    ],
+                    "descricao": "taiga.io, focalboard, redmine, planka.app",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929766"
+                },
+                {
+                    "name": "KeyVault",
+                    "status": false,
+                    "percent": 0,
+                    "children": [],
+                    "descricao": "infisical",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929768"
+                },
+                {
+                    "name": "Documentação",
+                    "status": false,
+                    "percent": 0,
+                    "children": [
+                        {
+                            "name": "gitdiagram",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929770"
+                        },
+                        {
+                            "name": "notesnook",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929771"
+                        },
+                        {
+                            "name": "trillium",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929772"
+                        },
+                        {
+                            "name": "outline knowledge base for your team",
+                            "status": false,
+                            "percent": 0,
+                            "children": [],
+                            "descricao": "",
+                            "collapsed": false,
+                            "_uid": "uid_1765827929773"
+                        }
+                    ],
+                    "descricao": "docusaurus",
+                    "collapsed": false,
+                    "_uid": "uid_1765827929769"
+                }
+            ],
+            "descricao": "",
+            "collapsed": false,
+            "_uid": "uid_1765827929657"
+        },
+        {
+            "name": "Firewall",
+            "status": false,
+            "percent": 0,
+            "children": [],
+            "descricao": "opnsense",
+            "collapsed": false,
+            "_uid": "uid_1765827929774"
+        },
+        {
+            "name": "Reverse Proxy load-balancing",
+            "status": true,
+            "percent": 100,
+            "children": [],
+            "descricao": "Cloudflare\nnginx\ncaddy\ncertbot",
+            "collapsed": false,
+            "_uid": "uid_1765827929775"
+        },
+        {
+            "name": "Data Analisys",
+            "status": false,
+            "percent": 0,
+            "children": [],
+            "descricao": "metabase",
+            "collapsed": false,
+            "_uid": "uid_1765827929776"
+        },
+        {
+            "name": "HTTP3",
+            "status": false,
+            "percent": 0,
+            "children": [],
+            "descricao": "",
+            "collapsed": false,
+            "_uid": "uid_1765827929777"
+        },
+        {
+            "name": "Kubernetes",
+            "status": false,
+            "percent": 0,
+            "children": [],
+            "descricao": "",
+            "collapsed": false,
+            "_uid": "uid_1765827929778"
+        }
+    ],
+    "descricao": "From dust to production stack\nenterprise grade solution gen\n\nhttps://www.linuxfoundation.org/projects\n\nhttps://github.com/RunaCapital/awesome-oss-alternatives\n\nawesome-selfhosted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+    "collapsed": false,
+    "_uid": "uid_1765827929656"
+}
