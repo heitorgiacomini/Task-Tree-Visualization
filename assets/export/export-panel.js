@@ -4,6 +4,7 @@
     const btnImport = document.getElementById('btn-import-json');
     const input = document.getElementById('input-import-json');
     const btnExportJson = document.getElementById('btn-export-json');
+    const btnExportMd = document.getElementById('btn-export-md');
     const btnExportPng = document.getElementById('btn-export-png');
     const btnExportJpeg = document.getElementById('btn-export-jpeg');
     const btnExportSvg = document.getElementById('btn-export-svg');
@@ -40,6 +41,7 @@
     }
 
     if (btnExportJson) btnExportJson.addEventListener('click', () => { if (typeof exportDiagramJSON === 'function') exportDiagramJSON(); });
+    if (btnExportMd) btnExportMd.addEventListener('click', () => { if (typeof exportDirectoryMarkdown === 'function') exportDirectoryMarkdown(); });
     if (btnExportPng) btnExportPng.addEventListener('click', () => { if (typeof exportDiagramPNG === 'function') exportDiagramPNG(); });
     if (btnExportJpeg) btnExportJpeg.addEventListener('click', () => { if (typeof exportDiagramJPEG === 'function') exportDiagramJPEG(); });
     if (btnExportSvg) btnExportSvg.addEventListener('click', () => { if (typeof exportDiagramSVG === 'function') exportDiagramSVG(); });

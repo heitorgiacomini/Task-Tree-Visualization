@@ -8,13 +8,14 @@
 | Feature | Description |
 | --- | --- |
 | Two visualization modes | Switch between **Directory** (jsTree) and **Diagram** (D3) using the top tabs. <span style="color: green;"><strong>Tested: Yes</strong></span> |
-| Hierarchical task model | Tree structure using `Task` class with name, status, percent, description and children. <span style="color: green;"><strong>Tested: Yes</strong></span> |
+| Hierarchical task model | Tree structure using `Task` class with name, status, percent, description, URL and children. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Automatic progress calculation | Percent and status of each node computed dynamically from its children. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | D3.js visualization | Interactive SVG tree with nodes, links and arrow markers using D3 v7. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Pie-style progress indicator | Each node shows a red base circle with a green pie slice representing completion percentage. <strong>Tested: Partial</strong> (presence + selection-hide is tested; exact angle math is not) |
 | Node selection and highlight | Click a node to highlight it and load its data in the side panel. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Tooltip with description | Shows task description when hovering the mouse over a node. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Task editing panel | Side panel to view/edit the selected node and access actions (create/update/delete/move). <strong>Tested: Partial</strong> (open panel + some actions are tested; field edits are not fully asserted) |
+| Per-node URL field | Optional URL field on each task; shown as a clickable link in Directory when it is a valid HTTP(S) URL (missing scheme is normalized to https). <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Update node | Apply edits (name/description and leaf status) via the **Update node** button. <strong>Tested: Partial</strong> (derived-status alert path is tested; normal update path is not) |
 | Draggable editor panel | Drag the editor panel by its header to reposition it on screen. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Close editor button | Close button hides the panel and clears selection. <span style="color: green;"><strong>Tested: Yes</strong></span> |
@@ -23,10 +24,12 @@
 | Diagram reparenting (Move to...) | "Move to..." changes a node's parent, blocking moving the root and preventing cycles (move into self/descendant). <strong>Tested: Partial</strong> (reparenting is tested; error paths are not) |
 | Directory drag-and-drop reparenting | Drag & drop nodes in Directory to reparent/reorder them. <span style="color: green;"><strong>Tested: Yes</strong></span> (reparenting via jsTree move triggers model update) |
 | Directory table progress column | Directory shows a completion percentage column with a progress bar + label. <span style="color: green;"><strong>Tested: Yes</strong></span> |
+| Directory table URL column | Directory shows a URL column (150px default). <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Cross-view synchronization | Changes in selection/data sync between Diagram and Directory views. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | JSON import | Load trees from a JSON file or default `task-tree.json`. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | JSON export | Export the current task structure to a JSON file. <span style="color: green;"><strong>Tested: Yes</strong></span> |
 | Image export | Export the diagram as PNG, JPEG or SVG preserving styling. <span style="color: green;"><strong>Tested: Yes</strong></span> (downloads) |
+| Markdown export | Export the current task structure to a Markdown file (`task-tree.md`). <span style="color: green;"><strong>Tested: Yes</strong></span> (download) |
 | Adaptive layout | SVG width/height and spacing adapt dynamically to node count and depth. <strong>Tested: Partial</strong> (width growth sanity) |
 | Refined panel UX | Edit panel stays open while interacting and does not close on text selection. <strong>Tested: Partial</strong> (text selection is tested; other interactions are not) |
 | Collapse/expand children | Double-click a node to hide or show its child subtree. <span style="color: green;"><strong>Tested: Yes</strong></span> |

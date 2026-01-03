@@ -147,7 +147,8 @@ test('Default task-tree.json: url values load into Directory', async ({ page }) 
     const entries = Object.entries(tree._model.data);
     for (const [id, node] of entries) {
       if (!id || id === '#') continue;
-      if (node && node.text === 'Ohara') {
+      // NOTE: The repo's default task-tree.json has a non-empty url on the root node.
+      if (node && node.text === 'Sinter') {
         return {
           found: true,
           url: node.data && typeof node.data.url === 'string' ? node.data.url : null
@@ -158,7 +159,7 @@ test('Default task-tree.json: url values load into Directory', async ({ page }) 
   });
 
   expect(result.found).toBeTruthy();
-  // The default repo task-tree.json currently has an Ohara.url set.
+  // The default repo task-tree.json currently has a Sinter.url set.
   expect(result.url).toContain('youtube');
 });
 
@@ -688,4 +689,12 @@ test('export JSON triggers a download', async ({ page }) => {
   await page.getByRole('button', { name: 'Export JSON' }).click();
   const download = await downloadPromise;
   await expect(download.suggestedFilename()).toMatch(/task-tree\.json$/);
+});
+
+test('export MD triggers a download', async ({ page }) => {
+  await page.goto('/index.html');
+  const downloadPromise = page.waitForEvent('download');
+  await page.getByRole('button', { name: 'Export MD' }).click();
+  const download = await downloadPromise;
+  await expect(download.suggestedFilename()).toMatch(/task-tree\.md$/);
 });

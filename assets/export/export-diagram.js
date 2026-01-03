@@ -19,6 +19,93 @@ function exportDiagramJSON() {
     URL.revokeObjectURL(url);
 }
 
+function exportDirectoryMarkdown() {
+    const root = (typeof window !== 'undefined' && window.data) ? window.data : (typeof data !== 'undefined' ? data : null);
+    if (!root) {
+        console.error("Global 'data' not found");
+        return;
+    }
+
+    try {
+        if (typeof computePercentFromStatus === 'function') {
+            computePercentFromStatus(root);
+        }
+    } catch (err) {
+        console.error(err);
+    }
+
+    function escapeMarkdown(text) {
+        return String(text || '')
+            .replace(/\\/g, '\\\\')
+            .replace(/\[/g, '\\[')
+            .replace(/\]/g, '\\]')
+            .replace(/\(/g, '\\(')
+            .replace(/\)/g, '\\)')
+            .replace(/\*/g, '\\*')
+            .replace(/_/g, '\\_')
+            .replace(/`/g, '\\`');
+    }
+
+    function normalizeHttpUrl(input) {
+        if (input === undefined || input === null) return null;
+        let raw = String(input).trim();
+        if (!raw) return null;
+
+        // If no scheme, assume https.
+        if (!/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(raw)) {
+            raw = 'https://' + raw;
+        }
+        try {
+            const u = new URL(raw);
+            if (u.protocol !== 'http:' && u.protocol !== 'https:') return null;
+            return u.href;
+        } catch {
+            return null;
+        }
+    }
+
+    function formatLine(node, depth) {
+        const indent = '  '.repeat(depth);
+        const pct = (node && typeof node.percent === 'number') ? Math.round(node.percent) : 0;
+        const name = escapeMarkdown(node && node.name ? node.name : '');
+
+        const url = normalizeHttpUrl(node && node.url ? node.url : '');
+        const label = url ? `[${name}](${url})` : name;
+
+        let line = `${indent}- ${label} (${pct}%)`;
+
+        const desc = (node && node.descricao) ? String(node.descricao) : '';
+        if (desc.trim()) {
+            const oneLine = desc.replace(/\s+/g, ' ').trim();
+            line += ` — ${escapeMarkdown(oneLine)}`;
+        }
+
+        return line;
+    }
+
+    const lines = [];
+    (function walk(node, depth) {
+        if (!node) return;
+        lines.push(formatLine(node, depth));
+        const children = node.children || [];
+        for (const child of children) {
+            walk(child, depth + 1);
+        }
+    })(root, 0);
+
+    const md = lines.join('\n') + '\n';
+    const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'task-tree.md';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
 // Build a styled SVG string, embedding page <style> rules into the SVG
 function buildStyledSVGString() {
     const svg = document.querySelector("svg");
