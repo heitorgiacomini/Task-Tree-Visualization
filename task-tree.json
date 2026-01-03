@@ -1,5 +1,5 @@
 {
-  "name": "qwerSinter",
+  "name": "Sinter",
   "status": false,
   "percent": 17.168556751890083,
   "children": [
@@ -19,8 +19,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935356"
+              "_uid": "uid_1767423010860"
             },
             {
               "name": "failover scenarios",
@@ -28,8 +29,9 @@
               "percent": 0,
               "children": [],
               "descricao": ".net HealthCheck, kuma",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935357"
+              "_uid": "uid_1767423010861"
             },
             {
               "name": "Ohara",
@@ -42,8 +44,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "via dto",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935359"
+                  "_uid": "uid_1767423010863"
                 },
                 {
                   "name": "keycloak integration",
@@ -51,13 +54,15 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935360"
+                  "_uid": "uid_1767423010864"
                 }
               ],
               "descricao": "GraphQL ",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935358"
+              "_uid": "uid_1767423010862"
             },
             {
               "name": "Back-end",
@@ -75,8 +80,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935363"
+                      "_uid": "uid_1767423010867"
                     },
                     {
                       "name": "Retry limit",
@@ -84,8 +90,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935364"
+                      "_uid": "uid_1767423010868"
                     },
                     {
                       "name": "DDD",
@@ -103,8 +110,9 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935367"
+                              "_uid": "uid_1767423010871"
                             },
                             {
                               "name": "value object",
@@ -112,8 +120,9 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935368"
+                              "_uid": "uid_1767423010872"
                             },
                             {
                               "name": "aggregate",
@@ -121,8 +130,9 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935369"
+                              "_uid": "uid_1767423010873"
                             },
                             {
                               "name": "domain events",
@@ -130,13 +140,15 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935370"
+                              "_uid": "uid_1767423010874"
                             }
                           ],
                           "descricao": "https://www.growthinnovationstrategy.com/insights/context-mapping-a-practical-guide-for-innovators",
+                          "url": "",
                           "collapsed": false,
-                          "_uid": "uid_1766350935366"
+                          "_uid": "uid_1767423010870"
                         },
                         {
                           "name": "strategic",
@@ -149,8 +161,9 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935372"
+                              "_uid": "uid_1767423010876"
                             },
                             {
                               "name": "Bounded Contexts",
@@ -158,8 +171,9 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935373"
+                              "_uid": "uid_1767423010877"
                             },
                             {
                               "name": "Ubiquitous Language",
@@ -167,18 +181,21 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935374"
+                              "_uid": "uid_1767423010878"
                             }
                           ],
                           "descricao": "",
+                          "url": "",
                           "collapsed": false,
-                          "_uid": "uid_1766350935371"
+                          "_uid": "uid_1767423010875"
                         }
                       ],
                       "descricao": "actor based architecture\nvertical sliced",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935365"
+                      "_uid": "uid_1767423010869"
                     },
                     {
                       "name": "Testes XUnit",
@@ -186,8 +203,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935375"
+                      "_uid": "uid_1767423010879"
                     },
                     {
                       "name": "Mapperly / AutoMapper",
@@ -195,8 +213,9 @@
                       "percent": 100,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935376"
+                      "_uid": "uid_1767423010880"
                     },
                     {
                       "name": "EntityFramework",
@@ -214,13 +233,15 @@
                               "percent": 0,
                               "children": [],
                               "descricao": "",
+                              "url": "",
                               "collapsed": false,
-                              "_uid": "uid_1766350935387"
+                              "_uid": "uid_1767423010883"
                             }
                           ],
                           "descricao": "efcore savingchanges interceptor\nAuditableEntity",
+                          "url": "",
                           "collapsed": false,
-                          "_uid": "uid_mjg84g9y7kkhmn"
+                          "_uid": "uid_1767423010882"
                         },
                         {
                           "name": "Faker Seeder",
@@ -228,8 +249,9 @@
                           "percent": 0,
                           "children": [],
                           "descricao": "",
+                          "url": "",
                           "collapsed": false,
-                          "_uid": "uid_1766350935386"
+                          "_uid": "uid_1767423010884"
                         },
                         {
                           "name": "CreateAndApplyMigrationsOnBuild",
@@ -237,13 +259,15 @@
                           "percent": 0,
                           "children": [],
                           "descricao": "",
+                          "url": "",
                           "collapsed": false,
-                          "_uid": "uid_mjg7wrdj9z5anp"
+                          "_uid": "uid_1767423010885"
                         }
                       ],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935377"
+                      "_uid": "uid_1767423010881"
                     },
                     {
                       "name": "Fluent Validation",
@@ -251,8 +275,9 @@
                       "percent": 100,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935378"
+                      "_uid": "uid_1767423010886"
                     },
                     {
                       "name": "Retry-Pattern Circuit-Breaker Exponential-Backoff",
@@ -260,8 +285,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935379"
+                      "_uid": "uid_1767423010887"
                     },
                     {
                       "name": "dataannotation validable object",
@@ -269,8 +295,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935380"
+                      "_uid": "uid_1767423010888"
                     },
                     {
                       "name": "Cancellation Token",
@@ -278,8 +305,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935381"
+                      "_uid": "uid_1767423010889"
                     },
                     {
                       "name": "MessageQueue",
@@ -287,8 +315,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "System.Threading.Channels;",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935382"
+                      "_uid": "uid_1767423010890"
                     },
                     {
                       "name": "HealthChecker",
@@ -296,8 +325,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935383"
+                      "_uid": "uid_1767423010891"
                     },
                     {
                       "name": "Referencia",
@@ -305,8 +335,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "orchardcore\nhttps://github.com/meysamhadeli/booking-modular-monolith\n\nhttps://github.com/jasontaylordev/CleanArchitecture\n\nhttps://github.com/ardalis/CleanArchitecture\n\nhttps://fullstackhero.net/\n\nhttps://serenity.is/docs/\n\nabp.io\n\nhttps://github.com/spark-dotnet/framework\n\nhttps://github.com/gothinkster/aspnetcore-realworld-example-app\n\nhttps://github.com/oqtane/oqtane.framework\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/OrchardCMS/OrchardCore\n\nhttps://github.com/unoplatform/uno\n\nhttps://github.com/KUTlime/Stock-value\n\nhttps://github.com/jhipster/jhipster-dotnetcore\n\nhttps://github.com/heynickc/awesome-ddd?tab=readme-ov-file#net-cf\n\nhttps://github.com/NetDevPack/NetDevPack\n\nhttps://github.com/EduardoPires/EquinoxProject/\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935384"
+                      "_uid": "uid_1767423010892"
                     },
                     {
                       "name": "libs",
@@ -314,8 +345,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "Hangfire\n\nnodatime\n\nhttps://github.com/erikbra/grate SAFE MIGRATIONS\n\nZLinq\n\nprofiler check execution time: tipo network do browser\n\nNSwag\n\nhttps://apimundo.com/\n\nPolly\n\nrefit\n\nRulesEngine\n\ngeohash-dotnet\n\njinqu-odata\n\nMicrosoft Restier - OData Made Simple\n\nhttps://github.com/sketch7/ssv.ngx/blob/master/libs/ngx.command/README.md\n\nNBitcoin\n\nngx-extended-pdf-viewer\n\nProjNet4GeoAPI\n\nentityframework-dynamicfilter\n\nhttps://github.com/amis92/csharp-source-generators\n\nEventFlow\n\nmetalama sourcegenerator",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935385"
+                      "_uid": "uid_1767423010893"
                     },
                     {
                       "name": "PipelineBehaviorMiddleware",
@@ -323,8 +355,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "loggin\nvalidation",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_mjg84frjyqv411"
+                      "_uid": "uid_1767423010894"
                     },
                     {
                       "name": "ExceptionHandler",
@@ -332,18 +365,21 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_mjg84gs65eo6hn"
+                      "_uid": "uid_1767423010895"
                     }
                   ],
                   "descricao": "akka.net\ncqrs\nfastendpoint\n.NET implementation of the actor model\n\nSetTimeZoneInfo(TimeZoneInfo\nConfigurations\nException Handling\nLocalization\nApplication Startup\nCaching\nCORS\nHangfire\nLogging\nMail Service\nMiddlewares\nMultitenancy\nSecurity\nSignalR\nSwagger\n",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935362"
+                  "_uid": "uid_1767423010866"
                 }
               ],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935361"
+              "_uid": "uid_1767423010865"
             },
             {
               "name": "Front-End",
@@ -361,8 +397,9 @@
                       "percent": 100,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935390"
+                      "_uid": "uid_1767423010898"
                     },
                     {
                       "name": "Forms",
@@ -370,8 +407,9 @@
                       "percent": 100,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935391"
+                      "_uid": "uid_1767423010899"
                     },
                     {
                       "name": "Storybook",
@@ -379,8 +417,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935392"
+                      "_uid": "uid_1767423010900"
                     },
                     {
                       "name": "f-flow",
@@ -388,8 +427,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935393"
+                      "_uid": "uid_1767423010901"
                     },
                     {
                       "name": "Knip",
@@ -397,8 +437,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "Knip finds and fixes unused dependencies, exports and files in your JavaScript and TypeScript projects. Less code and dependencies lead to improved performance, less maintenance and easier refactorings.",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935394"
+                      "_uid": "uid_1767423010902"
                     },
                     {
                       "name": "Rollup Plugin Visualizer",
@@ -406,8 +447,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935395"
+                      "_uid": "uid_1767423010903"
                     },
                     {
                       "name": "Signals ",
@@ -415,8 +457,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935396"
+                      "_uid": "uid_1767423010904"
                     },
                     {
                       "name": "Referencia",
@@ -424,8 +467,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "https://github.com/loiane/modern-angular\n\nhttps://github.com/trungvose/angular-spotify\n\nhttps://github.com/stefanoslig/angular-ngrx-nx-realworld-example-app\n\nhttps://github.com/bartuck/angular-best-boilerplate\n\nhttps://github.com/PatrickJS/awesome-angular\n\nhttps://github.com/coreui/coreui-free-angular-admin-template\n\n\n\n\n",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935397"
+                      "_uid": "uid_1767423010905"
                     },
                     {
                       "name": "Darkmode",
@@ -433,8 +477,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935398"
+                      "_uid": "uid_1767423010906"
                     },
                     {
                       "name": "ngx-ui-builder",
@@ -442,8 +487,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "plasmic\n\nformcms",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935399"
+                      "_uid": "uid_1767423010907"
                     },
                     {
                       "name": "libs",
@@ -451,8 +497,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "Turf \n\nprimeng-shadowdom-directives\n\nedit-in-place\n\nodata-builder\n\nodata-query-builder\n\nhttps://github.com/capacitor-community/background-geolocation\n\nhttps://github.com/haoliangyu/boundary.now?tab=readme-ov-file\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935400"
+                      "_uid": "uid_1767423010908"
                     },
                     {
                       "name": "n18n",
@@ -460,8 +507,9 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "https://ngx-translate.org/",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935401"
+                      "_uid": "uid_1767423010909"
                     },
                     {
                       "name": "Module Based",
@@ -469,18 +517,21 @@
                       "percent": 0,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935402"
+                      "_uid": "uid_1767423010910"
                     }
                   ],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935389"
+                  "_uid": "uid_1767423010897"
                 }
               ],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935388"
+              "_uid": "uid_1767423010896"
             },
             {
               "name": "Features",
@@ -488,8 +539,9 @@
               "percent": 100,
               "children": [],
               "descricao": "aplicacao-> relatorios, filtros, imagens, geo localização, upload e download de arquivos, is Required – Validation\n\ntypesense",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935403"
+              "_uid": "uid_1767423010911"
             },
             {
               "name": "Redis Cache",
@@ -497,8 +549,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935404"
+              "_uid": "uid_1767423010912"
             },
             {
               "name": "Resorce limit",
@@ -506,8 +559,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935405"
+              "_uid": "uid_1767423010913"
             },
             {
               "name": "OWSP top 10",
@@ -515,8 +569,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935406"
+              "_uid": "uid_1767423010914"
             },
             {
               "name": "Optimization",
@@ -524,8 +579,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935407"
+              "_uid": "uid_1767423010915"
             },
             {
               "name": "Keycloak SSO",
@@ -538,18 +594,21 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935409"
+                  "_uid": "uid_1767423010917"
                 }
               ],
               "descricao": "https://github.com/fschick/Keycloak.RestApiClient\n\nsap sso\n\nhttps://github.com/thomasdarimont/awesome-keycloak\n\nmicrosoft users\n\n\n",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935408"
+              "_uid": "uid_1767423010916"
             }
           ],
           "descricao": "",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935355"
+          "_uid": "uid_1767423010859"
         },
         {
           "name": "DB Postgres",
@@ -562,8 +621,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935411"
+              "_uid": "uid_1767423010919"
             },
             {
               "name": "Forbid DDL ",
@@ -571,13 +631,15 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935412"
+              "_uid": "uid_1767423010920"
             }
           ],
           "descricao": "",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935410"
+          "_uid": "uid_1767423010918"
         },
         {
           "name": "Graceful Shutdown",
@@ -585,8 +647,9 @@
           "percent": 0,
           "children": [],
           "descricao": "",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935413"
+          "_uid": "uid_1767423010921"
         },
         {
           "name": "DEV+SEC+DATA+OPS",
@@ -599,8 +662,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935415"
+              "_uid": "uid_1767423010923"
             },
             {
               "name": "snyk",
@@ -608,8 +672,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935416"
+              "_uid": "uid_1767423010924"
             },
             {
               "name": "sonar qube",
@@ -617,8 +682,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935417"
+              "_uid": "uid_1767423010925"
             },
             {
               "name": "Terraform",
@@ -626,8 +692,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935418"
+              "_uid": "uid_1767423010926"
             },
             {
               "name": "Version Control Gitlab",
@@ -640,8 +707,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935420"
+                  "_uid": "uid_1767423010928"
                 },
                 {
                   "name": "GitLab CICD",
@@ -654,8 +722,9 @@
                       "percent": 100,
                       "children": [],
                       "descricao": "",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935422"
+                      "_uid": "uid_1767423010930"
                     },
                     {
                       "name": "Static Analysis Linting SonarQube",
@@ -663,13 +732,15 @@
                       "percent": 100,
                       "children": [],
                       "descricao": "SonarQube, ESLint, Checkstyle",
+                      "url": "",
                       "collapsed": false,
-                      "_uid": "uid_1766350935423"
+                      "_uid": "uid_1767423010931"
                     }
                   ],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935421"
+                  "_uid": "uid_1767423010929"
                 },
                 {
                   "name": "Runner",
@@ -677,8 +748,9 @@
                   "percent": 100,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935424"
+                  "_uid": "uid_1767423010932"
                 },
                 {
                   "name": "Registry",
@@ -686,13 +758,15 @@
                   "percent": 100,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935425"
+                  "_uid": "uid_1767423010933"
                 }
               ],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935419"
+              "_uid": "uid_1767423010927"
             },
             {
               "name": "Monitoring Observability",
@@ -705,8 +779,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935427"
+                  "_uid": "uid_1767423010935"
                 },
                 {
                   "name": "coroot",
@@ -714,8 +789,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935428"
+                  "_uid": "uid_1767423010936"
                 },
                 {
                   "name": "pgmonitor",
@@ -723,8 +799,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935429"
+                  "_uid": "uid_1767423010937"
                 },
                 {
                   "name": "Beszel",
@@ -732,13 +809,15 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "Beszel",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935430"
+                  "_uid": "uid_1767423010938"
                 }
               ],
               "descricao": "Prometheus + Grafana + Tempo/Jaeger + OpenTelemetry + Loki\n\nMetrics · Logs · Traces · Service maps · Correlation ID\n\nPilha de registro – Elasticsearch, Splunk, Kibana.\nFerramenta de monitoramento - Prometheus, gerenciador de alertas, Grafana.\n\ncollector",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935426"
+              "_uid": "uid_1767423010934"
             },
             {
               "name": "container management platform",
@@ -751,8 +830,9 @@
                   "percent": 100,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": true,
-                  "_uid": "uid_1766350935432"
+                  "_uid": "uid_1767423010940"
                 },
                 {
                   "name": "dyrector.io",
@@ -760,8 +840,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935433"
+                  "_uid": "uid_1767423010941"
                 },
                 {
                   "name": "dockage",
@@ -769,18 +850,21 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935434"
+                  "_uid": "uid_1767423010942"
                 }
               ],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935431"
+              "_uid": "uid_1767423010939"
             }
           ],
           "descricao": "",
+          "url": "",
           "collapsed": true,
-          "_uid": "uid_1766350935414"
+          "_uid": "uid_1767423010922"
         },
         {
           "name": "Add-ons",
@@ -793,8 +877,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935436"
+              "_uid": "uid_1767423010944"
             },
             {
               "name": "AppStore",
@@ -802,8 +887,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935437"
+              "_uid": "uid_1767423010945"
             },
             {
               "name": "Immich",
@@ -811,8 +897,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935438"
+              "_uid": "uid_1767423010946"
             },
             {
               "name": "converse.js",
@@ -820,8 +907,9 @@
               "percent": 0,
               "children": [],
               "descricao": "discord like",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935439"
+              "_uid": "uid_1767423010947"
             },
             {
               "name": "Jellyfin",
@@ -829,8 +917,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935440"
+              "_uid": "uid_1767423010948"
             },
             {
               "name": "XMPP",
@@ -838,8 +927,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935441"
+              "_uid": "uid_1767423010949"
             },
             {
               "name": "classroomio",
@@ -847,8 +937,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935442"
+              "_uid": "uid_1767423010950"
             },
             {
               "name": "cal.com",
@@ -856,8 +947,9 @@
               "percent": 0,
               "children": [],
               "descricao": "cal.com",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935443"
+              "_uid": "uid_1767423010951"
             },
             {
               "name": "simplex-chat",
@@ -865,8 +957,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935444"
+              "_uid": "uid_1767423010952"
             },
             {
               "name": "TastyIgniter",
@@ -874,8 +967,9 @@
               "percent": 0,
               "children": [],
               "descricao": "Restaurant",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935445"
+              "_uid": "uid_1767423010953"
             },
             {
               "name": "akaunting",
@@ -883,8 +977,9 @@
               "percent": 0,
               "children": [],
               "descricao": "akaunting",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935446"
+              "_uid": "uid_1767423010954"
             },
             {
               "name": "Invoice Ninja",
@@ -892,8 +987,9 @@
               "percent": 0,
               "children": [],
               "descricao": "SolidInvoice",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935447"
+              "_uid": "uid_1767423010955"
             },
             {
               "name": "formbricks",
@@ -901,8 +997,9 @@
               "percent": 0,
               "children": [],
               "descricao": "formbricks",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935448"
+              "_uid": "uid_1767423010956"
             },
             {
               "name": "Peppermint Open Source Issue management",
@@ -910,8 +1007,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935449"
+              "_uid": "uid_1767423010957"
             },
             {
               "name": "typebot.io",
@@ -919,8 +1017,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935450"
+              "_uid": "uid_1767423010958"
             },
             {
               "name": "erpnext",
@@ -928,8 +1027,9 @@
               "percent": 0,
               "children": [],
               "descricao": "Annual report\nBalance sheet\nCash-flow\nEquity Income\nManagement discussion\nFinancial statement analysis\nmétricas financeiras (MRR, LTV, churn…\n\nPostHog",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935451"
+              "_uid": "uid_1767423010959"
             },
             {
               "name": "booklore",
@@ -937,8 +1037,9 @@
               "percent": 0,
               "children": [],
               "descricao": "Calibre-Web Automated",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935452"
+              "_uid": "uid_1767423010960"
             },
             {
               "name": "MiroTalk P2P",
@@ -946,8 +1047,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935453"
+              "_uid": "uid_1767423010961"
             },
             {
               "name": "Tickets managements",
@@ -955,8 +1057,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935454"
+              "_uid": "uid_1767423010962"
             },
             {
               "name": "nopcommerce",
@@ -964,8 +1067,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935455"
+              "_uid": "uid_1767423010963"
             },
             {
               "name": "qloapps horal ",
@@ -973,8 +1077,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935456"
+              "_uid": "uid_1767423010964"
             },
             {
               "name": "Cockpit",
@@ -982,8 +1087,9 @@
               "percent": 0,
               "children": [],
               "descricao": "https://github.com/cockpit-project/cockpit\nsysadmin login session in a web browser",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935457"
+              "_uid": "uid_1767423010965"
             },
             {
               "name": "Forum",
@@ -996,8 +1102,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935459"
+                  "_uid": "uid_1767423010967"
                 },
                 {
                   "name": "crowd.dev",
@@ -1005,8 +1112,9 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935460"
+                  "_uid": "uid_1767423010968"
                 },
                 {
                   "name": "Flarum",
@@ -1014,13 +1122,15 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935461"
+                  "_uid": "uid_1767423010969"
                 }
               ],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935458"
+              "_uid": "uid_1767423010966"
             },
             {
               "name": "homepage",
@@ -1028,8 +1138,9 @@
               "percent": 0,
               "children": [],
               "descricao": "https://github.com/IceWhaleTech/CasaOS\n\nhugo",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935462"
+              "_uid": "uid_1767423010970"
             },
             {
               "name": "AI",
@@ -1037,8 +1148,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935463"
+              "_uid": "uid_1767423010971"
             },
             {
               "name": "Team Colaboration Tool",
@@ -1051,13 +1163,15 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "free notion",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935465"
+                  "_uid": "uid_1767423010973"
                 }
               ],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935464"
+              "_uid": "uid_1767423010972"
             },
             {
               "name": "Payment",
@@ -1070,18 +1184,21 @@
                   "percent": 0,
                   "children": [],
                   "descricao": "",
+                  "url": "",
                   "collapsed": false,
-                  "_uid": "uid_1766350935467"
+                  "_uid": "uid_1767423010975"
                 }
               ],
               "descricao": "strype\nmercado livre",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935466"
+              "_uid": "uid_1767423010974"
             }
           ],
           "descricao": "https://github.com/Haxxnet/Compose-Examples\n\ndemoUser ",
+          "url": "",
           "collapsed": true,
-          "_uid": "uid_1766350935435"
+          "_uid": "uid_1767423010943"
         },
         {
           "name": "Storage",
@@ -1094,8 +1211,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935469"
+              "_uid": "uid_1767423010977"
             },
             {
               "name": "Nextcloud",
@@ -1103,13 +1221,15 @@
               "percent": 0,
               "children": [],
               "descricao": "\nNextcloud",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935470"
+              "_uid": "uid_1767423010978"
             }
           ],
           "descricao": "",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935468"
+          "_uid": "uid_1767423010976"
         },
         {
           "name": "PM Management",
@@ -1122,13 +1242,15 @@
               "percent": 0,
               "children": [],
               "descricao": "opf/openproject",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935472"
+              "_uid": "uid_1767423010980"
             }
           ],
           "descricao": "taiga.io, focalboard, redmine, planka.app",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935471"
+          "_uid": "uid_1767423010979"
         },
         {
           "name": "KeyVault",
@@ -1136,8 +1258,9 @@
           "percent": 0,
           "children": [],
           "descricao": "infisical",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935473"
+          "_uid": "uid_1767423010981"
         },
         {
           "name": "Documentação",
@@ -1150,8 +1273,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935475"
+              "_uid": "uid_1767423010983"
             },
             {
               "name": "notesnook",
@@ -1159,8 +1283,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935476"
+              "_uid": "uid_1767423010984"
             },
             {
               "name": "trillium",
@@ -1168,8 +1293,9 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935477"
+              "_uid": "uid_1767423010985"
             },
             {
               "name": "outline knowledge base for your team",
@@ -1177,18 +1303,21 @@
               "percent": 0,
               "children": [],
               "descricao": "",
+              "url": "",
               "collapsed": false,
-              "_uid": "uid_1766350935478"
+              "_uid": "uid_1767423010986"
             }
           ],
           "descricao": "docusaurus",
+          "url": "",
           "collapsed": false,
-          "_uid": "uid_1766350935474"
+          "_uid": "uid_1767423010982"
         }
       ],
       "descricao": "",
+      "url": "",
       "collapsed": false,
-      "_uid": "uid_1766350935354"
+      "_uid": "uid_1767423010858"
     },
     {
       "name": "Firewall",
@@ -1196,8 +1325,9 @@
       "percent": 0,
       "children": [],
       "descricao": "opnsense",
+      "url": "",
       "collapsed": false,
-      "_uid": "uid_1766350935479"
+      "_uid": "uid_1767423010987"
     },
     {
       "name": "Reverse Proxy load-balancing",
@@ -1205,8 +1335,9 @@
       "percent": 100,
       "children": [],
       "descricao": "Cloudflare\nnginx\ncaddy\ncertbot",
+      "url": "",
       "collapsed": false,
-      "_uid": "uid_1766350935480"
+      "_uid": "uid_1767423010988"
     },
     {
       "name": "Data Analisys",
@@ -1214,8 +1345,9 @@
       "percent": 0,
       "children": [],
       "descricao": "metabase",
+      "url": "",
       "collapsed": false,
-      "_uid": "uid_1766350935481"
+      "_uid": "uid_1767423010989"
     },
     {
       "name": "HTTP3",
@@ -1223,8 +1355,9 @@
       "percent": 0,
       "children": [],
       "descricao": "",
+      "url": "",
       "collapsed": false,
-      "_uid": "uid_1766350935482"
+      "_uid": "uid_1767423010990"
     },
     {
       "name": "Kubernetes",
@@ -1232,11 +1365,13 @@
       "percent": 0,
       "children": [],
       "descricao": "",
+      "url": "",
       "collapsed": false,
-      "_uid": "uid_1766350935483"
+      "_uid": "uid_1767423010991"
     }
   ],
   "descricao": "From dust to production stack\nenterprise grade solution gen\n\nhttps://www.linuxfoundation.org/projects\n\nhttps://github.com/RunaCapital/awesome-oss-alternatives\n\nawesome-selfhosted\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+  "url": "https://www.youtube.com/",
   "collapsed": false,
-  "_uid": "uid_1766350935353"
+  "_uid": "uid_1767423010857"
 }

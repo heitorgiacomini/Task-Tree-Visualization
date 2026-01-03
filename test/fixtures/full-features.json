@@ -3,6 +3,7 @@
   "status": false,
   "percent": 0,
   "descricao": "Fixture designed for deterministic automated UI testing",
+  "url": "https://example.com/root",
   "collapsed": false,
   "children": [
     {
@@ -10,10 +11,11 @@
       "status": false,
       "percent": 0,
       "descricao": "Has children (derived status)",
+      "url": "https://example.com/parent",
       "collapsed": false,
       "children": [
-        { "name": "LeafA", "status": false, "percent": 0, "descricao": "Tooltip for LeafA", "collapsed": false, "children": [] },
-        { "name": "LeafB", "status": true, "percent": 100, "descricao": "Tooltip for LeafB", "collapsed": false, "children": [] }
+        { "name": "LeafA", "status": false, "percent": 0, "descricao": "Tooltip for LeafA", "url": "https://example.com/leafa", "collapsed": false, "children": [] },
+        { "name": "LeafB", "status": true, "percent": 100, "descricao": "Tooltip for LeafB", "url": "example.com/leafb", "collapsed": false, "children": [] }
       ]
     },
     {
@@ -21,6 +23,7 @@
       "status": false,
       "percent": 0,
       "descricao": "Move destination",
+      "url": "",
       "collapsed": false,
       "children": []
     }

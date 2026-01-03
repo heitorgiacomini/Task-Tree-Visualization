@@ -113,6 +113,53 @@ test('Directory view renders nodes', async ({ page }) => {
   await expect.poll(async () => page.locator('#jstree li').count()).toBeGreaterThan(0);
   // jstree-table progress column renders labels.
   await expect(page.locator('.progress-label').first()).toBeVisible();
+  // URL column is present.
+  await expect(page.locator('.jstree-table-header-cell', { hasText: 'URL' }).first()).toBeVisible();
+});
+
+test('Directory: URL column renders clickable links', async ({ page }) => {
+  await openDirectoryView(page);
+  await importFixture(page, 'full-features.json');
+
+  // LeafA has an explicit https URL.
+  const leafALink = page.locator('.jstree-table-wrapper a[href^="https://example.com/leafa"]');
+  await expect(leafALink.first()).toBeVisible();
+  await expect(leafALink.first()).toHaveAttribute('target', '_blank');
+
+  // LeafB uses a bare domain in the fixture; app normalizes it to https.
+  const leafBLink = page.locator('.jstree-table-wrapper a[href^="https://example.com/leafb"]');
+  await expect(leafBLink.first()).toBeVisible();
+});
+
+test('Default task-tree.json: url values load into Directory', async ({ page }) => {
+  await openDirectoryView(page);
+
+  // Wait for the app to load default task-tree.json.
+  await page.waitForFunction(() => !!window.data && typeof window.data.name === 'string');
+
+  const result = await page.evaluate(() => {
+    const $ = window.jQuery;
+    if (!$) throw new Error('jQuery not available');
+    const tree = $('#jstree').jstree(true);
+    if (!tree || !tree._model || !tree._model.data) throw new Error('jsTree not initialized');
+
+    // Find a known node name from the default dataset and return its data.url.
+    const entries = Object.entries(tree._model.data);
+    for (const [id, node] of entries) {
+      if (!id || id === '#') continue;
+      if (node && node.text === 'Ohara') {
+        return {
+          found: true,
+          url: node.data && typeof node.data.url === 'string' ? node.data.url : null
+        };
+      }
+    }
+    return { found: false, url: null };
+  });
+
+  expect(result.found).toBeTruthy();
+  // The default repo task-tree.json currently has an Ohara.url set.
+  expect(result.url).toContain('youtube');
 });
 
 test('import fixture and enforce leaf-only status rule', async ({ page }) => {

@@ -43,6 +43,34 @@
     return 'data:image/svg+xml;utf8,' + encodeURIComponent(svg);
   }
 
+  function escapeHtml(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function normalizeHttpUrl(input) {
+    if (input === undefined || input === null) return null;
+    let raw = String(input).trim();
+    if (!raw) return null;
+
+    // If user provided no scheme, assume https.
+    if (!/^[a-zA-Z][a-zA-Z0-9+.-]*:/.test(raw)) {
+      raw = 'https://' + raw;
+    }
+
+    try {
+      const u = new URL(raw);
+      if (u.protocol !== 'http:' && u.protocol !== 'https:') return null;
+      return u.href;
+    } catch {
+      return null;
+    }
+  }
+
   function toJsTree(node) {
     const children = (node.children || []).map(toJsTree);
 
@@ -59,7 +87,7 @@
       a_attr: { style: `color: ${color};` },
       icon: svgIconDataUrl(color),
       // jstree-table reads values from node.data[col.value]
-      data: { percent: node.percent, status: node.status, descricao: node.descricao }
+      data: { percent: node.percent, status: node.status, descricao: node.descricao, url: node.url }
     };
   }
 
@@ -120,6 +148,7 @@
       jsNode.data.percent = task.percent || 0;
       jsNode.data.status = !!task.status;
       jsNode.data.descricao = task.descricao || "";
+      jsNode.data.url = task.url || "";
 
       jsNode.li_attr = jsNode.li_attr || {};
       jsNode.li_attr['data-name'] = task.name;
@@ -188,6 +217,24 @@
               var intPct = Math.round(pct);
               return '<div class="progress-cell"><div class="progress-base"><div class="progress-foreground" style="width:' + intPct + '%"></div></div><span class="progress-label">' + intPct + '%</span></div>';
             }
+          },
+          {
+            header: 'URL',
+            value: 'url',
+            width: 150,
+            format: function (v) {
+              var raw = (v === undefined || v === null) ? '' : String(v);
+              if (!raw.trim()) return '';
+
+              var normalized = normalizeHttpUrl(raw);
+              if (!normalized) {
+                return escapeHtml(raw);
+              }
+
+              var text = escapeHtml(raw.trim());
+              var href = escapeHtml(normalized);
+              return '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + text + '</a>';
+            }
           }
         ],
         resizable: true,
@@ -222,7 +269,7 @@
                 const tree = window.jQuery('#jstree').jstree(true);
                 const parentId = node.id;
                 const newUid = generateUid();
-                const newDataNode = { name: 'New folder', percent: 0, status: false, descricao: '', collapsed: false, children: [], _uid: newUid };
+                const newDataNode = { name: 'New folder', percent: 0, status: false, descricao: '', url: '', collapsed: false, children: [], _uid: newUid };
                 try {
                   if (window.data) {
                     const parentObj = findByUid(window.data, parentId);

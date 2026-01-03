@@ -62,6 +62,7 @@
 }
 
 #controls-row input[type="text"],
+#controls-row input[type="url"],
 #controls-row textarea {
   width: 220px;
 }

@@ -37,6 +37,8 @@ function openEditor(task) {
   if (statusInput) statusInput.checked = !!task.status;
   const descInput = document.getElementById("task-descricao");
   if (descInput) descInput.value = task.descricao || "";
+  const urlInput = document.getElementById("task-url");
+  if (urlInput) urlInput.value = task.url || "";
 }
 
 function clamp(value, min, max) {
@@ -101,7 +103,7 @@ function setupControlsDrag() {
 
 document.getElementById("btn-create-child").addEventListener("click", () => {
   if (!selectedNode) return;
-  const child = new Task("Task", false, 0, [], "");
+  const child = new Task("Task", false, 0, [], "", "");
   ensureNodeUid(child);
   if (!selectedNode.data.children) {
     selectedNode.data.children = [];
@@ -143,6 +145,8 @@ document.getElementById("btn-update").addEventListener("click", () => {
   selectedNode.data.name = newName;
   document.getElementById("selected-node-label").textContent = newName;
   selectedNode.data.descricao = document.getElementById("task-descricao").value || "";
+  const urlEl = document.getElementById("task-url");
+  if (urlEl) selectedNode.data.url = urlEl.value || "";
 
   const statusInput = document.getElementById("task-status");
   const hasChildren = !!(selectedNode.data.children && selectedNode.data.children.length);
