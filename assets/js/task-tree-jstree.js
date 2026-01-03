@@ -1,4 +1,5 @@
 // Initialize a jsTree panel that shows the raw task-tree.json structure
+
 (function () {
   let initialized = false;
   let uidCounter = Date.now();
@@ -14,6 +15,27 @@
     if (node.children && node.children.length) {
       for (const c of node.children) assignUIDs(c);
     }
+  }
+
+  function findByUid(node, uid) {
+    if (!node) return null;
+    if (node._uid === uid) return node;
+    if (!node.children) return null;
+    for (const child of node.children) {
+      const found = findByUid(child, uid);
+      if (found) return found;
+    }
+    return null;
+  }
+
+  function findParentByUid(root, uid) {
+    if (!root || !root.children) return null;
+    for (const child of root.children) {
+      if (child._uid === uid) return root;
+      const rec = findParentByUid(child, uid);
+      if (rec) return rec;
+    }
+    return null;
   }
 
   function svgIconDataUrl(color) {
@@ -75,6 +97,56 @@
   }
 
   window.refreshJsTree = rebuildTreeFromData;
+
+  function syncBranchFromData(uid) {
+    if (!uid) return false;
+    if (!window.data || !window.jQuery) return false;
+    const $tree = window.jQuery('#jstree');
+    if (!$tree || $tree.length === 0) return false;
+    if (typeof $tree.jstree !== 'function') return false;
+    const tree = $tree.jstree(true);
+    if (!tree) return false;
+
+    const taskNode = findByUid(window.data, uid);
+    if (!taskNode) return false;
+
+    function syncOne(targetUid, task) {
+      const jsNode = tree.get_node(targetUid);
+      if (!jsNode) return;
+      const color = task.status ? 'green' : 'red';
+
+      jsNode.text = task.name;
+      jsNode.data = jsNode.data || {};
+      jsNode.data.percent = task.percent || 0;
+      jsNode.data.status = !!task.status;
+      jsNode.data.descricao = task.descricao || "";
+
+      jsNode.li_attr = jsNode.li_attr || {};
+      jsNode.li_attr['data-name'] = task.name;
+      jsNode.li_attr['data-uid'] = task._uid;
+
+      jsNode.icon = svgIconDataUrl(color);
+      jsNode.a_attr = jsNode.a_attr || {};
+      jsNode.a_attr.style = `color: ${color};`;
+
+      tree.redraw_node(jsNode, true);
+    }
+
+    syncOne(uid, taskNode);
+
+    const jsNode = tree.get_node(uid);
+    if (jsNode && Array.isArray(jsNode.parents)) {
+      jsNode.parents.forEach(parentId => {
+        if (parentId === '#') return;
+        const parentTask = findByUid(window.data, parentId);
+        if (parentTask) syncOne(parentId, parentTask);
+      });
+    }
+
+    return true;
+  }
+
+  window.syncJsTreeBranchFromData = syncBranchFromData;
 
   function ensureInitialized() {
     if (initialized) return true;
@@ -160,9 +232,14 @@
                   }
                 } catch (e) { console.error(e); }
                 tree.create_node(parentId, { id: newUid, text: newDataNode.name, li_attr: { 'data-name': newDataNode.name, 'data-uid': newUid } }, 'last', function (n) {
-                  tree.edit(n);
+                  if (typeof computePercentFromStatus === 'function' && window.data) {
+                    computePercentFromStatus(window.data);
+                  }
+                  if (typeof window.syncJsTreeBranchFromData === 'function') {
+                    window.syncJsTreeBranchFromData(newUid);
+                  }
                   if (typeof render === 'function') render();
-                  if (typeof window.refreshJsTree === 'function') window.refreshJsTree({ selectUid: newUid });
+                  tree.edit(n);
                 });
               }
             },
@@ -334,26 +411,5 @@
       } catch (err) { console.error(err); }
     });
 
-    // helper finders
-    function findByUid(n, uid) {
-      if (!n) return null;
-      if (n._uid === uid) return n;
-      if (!n.children) return null;
-      for (const c of n.children) {
-        const f = findByUid(c, uid);
-        if (f) return f;
-      }
-      return null;
-    }
-
-    function findParentByUid(root, uid) {
-      if (!root || !root.children) return null;
-      for (const c of root.children) {
-        if (c._uid === uid) return root;
-        const rec = findParentByUid(c, uid);
-        if (rec) return rec;
-      }
-      return null;
-    }
   });
 })();

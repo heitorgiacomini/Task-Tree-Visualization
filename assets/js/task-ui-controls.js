@@ -6,8 +6,21 @@ function ensureNodeUid(node) {
 }
 
 function notifyTreeChange(options) {
+  const opts = options || {};
+
+  if (typeof window.syncJsTreeBranchFromData === "function") {
+    let uid = opts.uid;
+    if (!uid && window.selectedNode && window.selectedNode.data && window.selectedNode.data._uid) {
+      uid = window.selectedNode.data._uid;
+    }
+    if (uid) {
+      const ok = window.syncJsTreeBranchFromData(uid);
+      if (ok) return;
+    }
+  }
+
   if (typeof window.refreshJsTree === "function") {
-    window.refreshJsTree(options || undefined);
+    window.refreshJsTree(opts);
   }
 }
 
@@ -97,8 +110,30 @@ document.getElementById("btn-create-child").addEventListener("click", () => {
   // persist to shared model
   window.data = data;
   window.selectedNode = selectedNode;
+  try {
+    if (window.jQuery) {
+      const $tree = window.jQuery('#jstree');
+      if ($tree && $tree.length && typeof $tree.jstree === 'function') {
+        const tree = $tree.jstree(true);
+        const parentUid = selectedNode.data._uid;
+        if (tree && parentUid) {
+          tree.create_node(parentUid, {
+            id: child._uid,
+            text: child.name,
+            li_attr: { 'data-name': child.name, 'data-uid': child._uid }
+          }, 'last', function () {
+            notifyTreeChange({ uid: child._uid });
+          });
+        }
+      }
+    }
+  } catch (err) {
+    console.error(err);
+  }
   render();
-  notifyTreeChange();
+  if (!window.jQuery) {
+    notifyTreeChange({ uid: child._uid });
+  }
 });
 
 document.getElementById("btn-update").addEventListener("click", () => {
