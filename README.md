@@ -1,7 +1,4 @@
-# Task Tree Visualization
-
-![Task Tree Screenshot](task-tree.jpg)
-
+# [Task Tree Visualization](https://heitorgiacomini.github.io/Task-Tree-Visualization/)
 ![Directory Screenshot](directory.png)
 
 ## See it in action
