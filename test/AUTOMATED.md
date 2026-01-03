@@ -30,9 +30,12 @@ Interactive modes:
 - UI runner: `npm run test:ui`
 - Inspector: `npm run test:debug`
 
-Or on Windows PowerShell:
+On Windows PowerShell you can run the same commands directly:
 
-- `./test/scripts/run-tests.ps1`
+- `cd test`
+- `npm install`
+- `npm run install:browsers`
+- `npm test`
 
 ## What is covered
 

@@ -1,1 +1,8 @@
 .github/copilot-instructions.md
+test\test-results
+test/AUTOMATED.md
+test/fixtures/collapsed-nodes.json
+test/fixtures/move-and-reparent.json
+test/fixtures/smoke-basic.json
+test/scripts/run-tests.ps1
+test/scripts/serve.ps1
