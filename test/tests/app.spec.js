@@ -18,13 +18,13 @@ async function importFixture(page, fixtureFileName) {
 }
 
 async function openDirectoryView(page) {
-  await page.goto('/project-conclusion-visualization.html');
+  await page.goto('/index.html');
   await page.getByRole('tab', { name: 'Directory' }).click();
   await expect(page.locator('#jstree')).toBeVisible();
 }
 
 async function openDiagramView(page) {
-  await page.goto('/project-conclusion-visualization.html');
+  await page.goto('/index.html');
   await page.getByRole('tab', { name: 'Diagram' }).click();
   await expect(page.locator('#canvas svg')).toBeVisible();
 }
@@ -102,7 +102,7 @@ async function openJsTreeContextMenuByLabel(page, labelText) {
 }
 
 test('loads and shows both tabs', async ({ page }) => {
-  await page.goto('/project-conclusion-visualization.html');
+  await page.goto('/index.html');
   await expect(page.getByRole('tab', { name: 'Directory' })).toBeVisible();
   await expect(page.getByRole('tab', { name: 'Diagram' })).toBeVisible();
 });
@@ -605,7 +605,7 @@ test('Directory: delete non-root node removes it', async ({ page }) => {
 });
 
 test('export PNG/JPEG/SVG each triggers a download', async ({ page }) => {
-  await page.goto('/project-conclusion-visualization.html');
+  await page.goto('/index.html');
 
   const d1 = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export PNG' }).click();
@@ -636,7 +636,7 @@ test('Diagram: adaptive layout grows SVG width for larger trees', async ({ page 
 });
 
 test('export JSON triggers a download', async ({ page }) => {
-  await page.goto('/project-conclusion-visualization.html');
+  await page.goto('/index.html');
   const downloadPromise = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export JSON' }).click();
   const download = await downloadPromise;

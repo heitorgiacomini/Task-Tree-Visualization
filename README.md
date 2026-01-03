@@ -76,4 +76,4 @@ This is a static HTML app. You can open the HTML directly, but using a local ser
 
 - Python:
 	- `python -m http.server 8000`
-	- Open `http://localhost:8000/project-conclusion-visualization.html`
+	- Open `http://localhost:8000/index.html`

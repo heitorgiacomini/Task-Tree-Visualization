@@ -7,7 +7,7 @@ This folder contains manual testing instructions and JSON fixtures to exercise a
 1. Start a local server from the repo root:
    - `python -m http.server 8000`
 2. Open:
-   - `http://localhost:8000/project-conclusion-visualization.html`
+   - `http://localhost:8000/index.html`
 
 ## How to use fixtures
 

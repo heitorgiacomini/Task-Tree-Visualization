@@ -18,7 +18,7 @@ module.exports = defineConfig({
   },
   webServer: {
     command: 'python -m http.server 8000',
-    url: 'http://localhost:8000/project-conclusion-visualization.html',
+    url: 'http://localhost:8000/index.html',
     reuseExistingServer: true,
     cwd: path.join(__dirname, '..')
   },
