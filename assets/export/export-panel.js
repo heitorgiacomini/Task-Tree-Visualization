@@ -27,6 +27,10 @@
             const label = document.getElementById('selected-node-label');
             if (label) label.textContent = 'nenhum';
             if (typeof render === 'function') render();
+            // Keep Directory (jsTree) in sync when it's already initialized.
+            if (typeof window.refreshJsTree === 'function') {
+              window.refreshJsTree();
+            }
           } catch (err) {
             alert('Erro ao ler JSON: ' + err.message);
           }

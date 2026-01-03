@@ -256,6 +256,13 @@
                 const tree = window.jQuery('#jstree').jstree(true);
                 const uid = node.id;
                 try {
+                  // Protect against deleting the root node.
+                  if (window.data && window.data._uid && uid === window.data._uid) {
+                    alert('It is not possible to delete the root node.');
+                    return;
+                  }
+                } catch (e) { console.error(e); }
+                try {
                   if (window.data) {
                     const parentObj = findParentByUid(window.data, uid);
                     if (parentObj && parentObj.children) parentObj.children = parentObj.children.filter(c => c._uid !== uid);

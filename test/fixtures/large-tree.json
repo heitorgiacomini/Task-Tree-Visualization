@@ -1,0 +1,74 @@
+{
+  "name": "Large Tree",
+  "status": false,
+  "percent": 0,
+  "descricao": "Performance sanity fixture",
+  "collapsed": false,
+  "children": [
+    {
+      "name": "Group 1",
+      "status": false,
+      "percent": 0,
+      "descricao": "",
+      "collapsed": false,
+      "children": [
+        { "name": "G1 - Task 1", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G1 - Task 2", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G1 - Task 3", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G1 - Task 4", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G1 - Task 5", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] }
+      ]
+    },
+    {
+      "name": "Group 2",
+      "status": false,
+      "percent": 0,
+      "descricao": "",
+      "collapsed": false,
+      "children": [
+        { "name": "G2 - Task 1", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G2 - Task 2", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G2 - Task 3", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G2 - Task 4", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G2 - Task 5", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] }
+      ]
+    },
+    {
+      "name": "Group 3",
+      "status": false,
+      "percent": 0,
+      "descricao": "",
+      "collapsed": false,
+      "children": [
+        {
+          "name": "G3 - Subgroup",
+          "status": false,
+          "percent": 0,
+          "descricao": "Nested group",
+          "collapsed": false,
+          "children": [
+            { "name": "G3 - Task 1", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+            { "name": "G3 - Task 2", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] },
+            { "name": "G3 - Task 3", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+            { "name": "G3 - Task 4", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+            { "name": "G3 - Task 5", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Group 4",
+      "status": false,
+      "percent": 0,
+      "descricao": "",
+      "collapsed": false,
+      "children": [
+        { "name": "G4 - Task 1", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G4 - Task 2", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G4 - Task 3", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G4 - Task 4", "status": false, "percent": 0, "descricao": "", "collapsed": false, "children": [] },
+        { "name": "G4 - Task 5", "status": true, "percent": 100, "descricao": "", "collapsed": false, "children": [] }
+      ]
+    }
+  ]
+}

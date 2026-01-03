@@ -1,0 +1,28 @@
+{
+  "name": "FullFeatures",
+  "status": false,
+  "percent": 0,
+  "descricao": "Fixture designed for deterministic automated UI testing",
+  "collapsed": false,
+  "children": [
+    {
+      "name": "Parent",
+      "status": false,
+      "percent": 0,
+      "descricao": "Has children (derived status)",
+      "collapsed": false,
+      "children": [
+        { "name": "LeafA", "status": false, "percent": 0, "descricao": "Tooltip for LeafA", "collapsed": false, "children": [] },
+        { "name": "LeafB", "status": true, "percent": 100, "descricao": "Tooltip for LeafB", "collapsed": false, "children": [] }
+      ]
+    },
+    {
+      "name": "Dest",
+      "status": false,
+      "percent": 0,
+      "descricao": "Move destination",
+      "collapsed": false,
+      "children": []
+    }
+  ]
+}

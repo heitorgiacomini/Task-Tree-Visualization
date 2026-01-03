@@ -197,6 +197,8 @@ if (closeControlsBtn) {
   closeControlsBtn.addEventListener("click", () => {
     const controls = document.getElementById("controls");
     if (controls) controls.style.display = "none";
+    const label = document.getElementById("selected-node-label");
+    if (label) label.textContent = "none";
     moveMode = false;
     selectedNode = null;
     window.selectedNode = null;

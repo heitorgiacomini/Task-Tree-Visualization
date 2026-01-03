@@ -1,0 +1,20 @@
+{
+  "name": "Status Rule Demo",
+  "status": false,
+  "percent": 0,
+  "descricao": "Try toggling parents vs leaves",
+  "collapsed": false,
+  "children": [
+    {
+      "name": "Parent (derived)",
+      "status": false,
+      "percent": 0,
+      "descricao": "Has children so status must be derived",
+      "collapsed": false,
+      "children": [
+        { "name": "Leaf A", "status": false, "percent": 0, "descricao": "toggle me", "collapsed": false, "children": [] },
+        { "name": "Leaf B", "status": true, "percent": 100, "descricao": "already done", "collapsed": false, "children": [] }
+      ]
+    }
+  ]
+}

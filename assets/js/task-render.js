@@ -42,6 +42,28 @@ function render() {
     .attr("width", width)
     .attr("height", height);
 
+  // Clicking empty space deselects and hides the editor panel.
+  // Node click handlers call event.stopPropagation(), so this only fires for background clicks.
+  svg.on("click", (event) => {
+    selectedNode = null;
+    window.selectedNode = null;
+    moveMode = false;
+
+    const controls = document.getElementById("controls");
+    if (controls) controls.style.display = "none";
+    const label = document.getElementById("selected-node-label");
+    if (label) label.textContent = "none";
+
+    const tooltip = document.getElementById("tooltip");
+    if (tooltip) tooltip.style.display = "none";
+
+    window.data = data;
+    render();
+    if (typeof window.notifyTreeChange === "function") {
+      window.notifyTreeChange();
+    }
+  });
+
   const g = svg.append("g")
     .attr("transform", `translate(${width / 2}, 50)`);
 

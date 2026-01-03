@@ -1,0 +1,30 @@
+{
+  "name": "Collapsed Demo",
+  "status": false,
+  "percent": 0,
+  "descricao": "Some nodes start collapsed",
+  "collapsed": false,
+  "children": [
+    {
+      "name": "Collapsed Parent",
+      "status": false,
+      "percent": 0,
+      "descricao": "Should show a + indicator in Diagram",
+      "collapsed": true,
+      "children": [
+        { "name": "Hidden Leaf 1", "status": false, "percent": 0, "descricao": "hidden", "collapsed": false, "children": [] },
+        { "name": "Hidden Leaf 2", "status": true, "percent": 100, "descricao": "hidden", "collapsed": false, "children": [] }
+      ]
+    },
+    {
+      "name": "Expanded Parent",
+      "status": false,
+      "percent": 0,
+      "descricao": "Should be visible",
+      "collapsed": false,
+      "children": [
+        { "name": "Visible Leaf", "status": false, "percent": 0, "descricao": "visible", "collapsed": false, "children": [] }
+      ]
+    }
+  ]
+}
