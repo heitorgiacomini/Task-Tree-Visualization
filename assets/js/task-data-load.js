@@ -1,6 +1,14 @@
 // tentativa de carregar JSON padrão ao iniciar, após o DOM estar pronto
 document.addEventListener("DOMContentLoaded", () => {
-  fetch('task-tree.json')
+  // Force a fresh request on every load (avoid disk cache during local development).
+  const taskTreeUrl = `task-tree.json?CacheBuster=${Date.now()}`;
+  fetch(taskTreeUrl, {
+    cache: 'no-store',
+    headers: {
+      'Cache-Control': 'no-cache',
+      'Pragma': 'no-cache'
+    }
+  })
     .then(response => {
       if (!response.ok) throw new Error('not found');
       return response.json();
